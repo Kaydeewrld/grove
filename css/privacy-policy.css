@@ -1,0 +1,50 @@
+#privacy-banner {
+  background: #0036BF;
+}
+#privacy-banner .wrap {
+  max-width: 1220px;
+  padding: 70px 0px 61px;
+}
+#privacy-banner .wrap h1 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#privacy-info .wrap {
+  max-width: 1211px;
+  padding: 50px 0px 65px;
+}
+#privacy-info .wrap .info-block {
+  margin-bottom: 32px;
+}
+#privacy-info .wrap .info-block h3 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0;
+}
+#privacy-info .wrap .info-block h4 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 44px;
+}
+#privacy-info .wrap .info-block p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+#privacy-info .wrap .info-block ol {
+  padding-left: 22px;
+}
+#privacy-info .wrap .info-block ol li {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}/*# sourceMappingURL=privacy-policy.css.map */

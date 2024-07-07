@@ -1,0 +1,309 @@
+
+    @media only screen and  (max-width:1368px){
+        
+    }
+
+
+    @media only screen and  (max-width:1200px){
+        
+    }
+
+
+    @media only screen and  (max-width:991px){
+        
+    }
+
+    @media only screen and  (min-width:767px){
+        #stories-accordians{
+            display: none;
+        }
+    }
+    @media only screen and  (max-width:767px){
+
+        #banner-carousel {
+            padding: 0px 16px;
+        }        
+        #banner-carousel .carousel-item {
+            min-height: 201px;
+        }
+        #banner-carousel .carousel-item .slider-video {
+            position: relative;
+            max-height: 201px;
+            border-radius: 18px;
+            object-fit: cover;
+            max-width: 100%;
+        }
+        #banner-carousel .carousel-item .carousel-info {
+            position: relative;
+            color: #fff;
+            padding-bottom: 121px;
+            padding: 20px 0px 125px 0px;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+        }
+
+        #banner-carousel .carousel-item {
+            background-color: #ffffff;
+        }
+
+        #banner-carousel .carousel-indicators {
+            left: 16px;
+            margin-bottom: 64px;
+        }
+        #banner-carousel .carousel-indicators .slide-number{
+            color: rgba(0, 0, 0, 0.7);
+            font-weight: 500;
+        }
+
+        .carousel-indicators [data-bs-target]{
+            background-color: #eaeaea;
+        }
+
+        .px-28 {
+            padding-left: 19px;
+            padding-right: 19px;
+        }
+        #workflow {
+            padding-top: 56px;
+            padding-bottom: 0px;
+        }
+        #workflow h2.title-lg {
+            font-size: 24px;
+            line-height: 30px;
+            text-align: left;
+            margin-bottom: 8px;
+        }
+        #workflow .subtitle-lg {
+            font-size: 12px;
+            line-height: 18px;
+            text-align: left;
+            min-height: auto;
+            min-height: 76px;
+            margin-bottom: 28px;
+        }
+        #workflow .workflow-blocks {
+            margin-top: 0px;
+        }
+        #workflow .workflow-blocks .wf-block {
+            min-height: 336px;
+            padding: 43.4px 22px 72px 36px;
+        }
+        #workflow .workflow-blocks .wf-block h4 {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 6px;
+        }
+        #workflow .workflow-blocks .wf-block p{
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+        #workflow .workflow-blocks .col-sm-6:nth-child(1) .wf-block{
+            background-image: url(../images/mobile1.png) !important;
+        }
+        #workflow .workflow-blocks .col-sm-6:nth-child(2) .wf-block{
+            background-image: url(../images/mobile2.png) !important;
+        }
+        #workflow .workflow-blocks .col-sm-6:nth-child(3) .wf-block{
+            background-image: url(../images/mobile3.png) !important;
+        }
+        #workflow .workflow-blocks .col-sm-6:nth-child(4) .wf-block{
+            background-image: url(../images/mobile4.png) !important;
+        }
+        #workflow .workflow-blocks .col-sm-6:nth-child(5) .wf-block{
+            background-image: url(../images/mobile5.png) !important;
+        }
+        #workflow .workflow-blocks .col-sm-6:nth-child(6) .wf-block{
+            background-image: url(../images/mobile6.png) !important;
+        }
+
+
+        #global-transformation {
+            padding-top: 94px;
+            padding-left: 21px;
+            padding-right: 21px;
+        }
+        #global-transformation .slick-list {
+            padding-right: 0px;
+        }
+        #global-transformation .slider-content .counter-info .counter-number {
+            font-size: 28px;
+            line-height: 31px;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        #global-transformation .slider-content .counter-info p{
+            font-size: 12px;
+    line-height: 18px;
+        }
+
+        #global-transformation .slick-active {
+            opacity: 1;
+            max-width: 33.3%;
+            width: 100% !important;
+            margin: 0px;
+        }
+        #global-transformation .slider-content .counter-info{
+            margin: auto;
+            padding: 0px 0px;
+        }
+        #global-transformation .slick-track {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #global-transformation  .title{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+                padding: 8px;
+        }
+        #global-transformation .slider-content {
+            min-height: 120px;
+            padding: 8px;
+        }
+
+
+
+        #stories-tab{
+            display: none;
+        }
+
+        #technology-platform.px-28 {
+            padding-left: 0px;
+            padding-right:0px;
+        }
+
+        #technology-platform .container {
+            padding: 89px 27px 155px 26px;
+        }
+        #technology-platform .container .title{
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 33px;
+            min-height: 70px;
+        }
+
+        #technology-platform .container .cards h6 {
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+        #technology-platform .container .cards p {
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            min-height: auto;
+            margin-bottom: 35px;
+        }
+        #brands .card > .card-content {
+            padding: 0px;
+        }
+        #brands .row {
+            padding: 0px 47px;
+        }
+
+        #brands {
+            margin-top: 97px;
+        }
+        #brands .title {
+            margin-bottom: 21px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 36px;
+        }
+
+        #cta {
+            margin-top: 77px;
+            padding-left: 14px;
+            padding-right: 12px
+        }
+        
+
+        #cta .contain {
+            padding: 49px 29px 30px;
+            min-height: 349px;
+            background-image: url(assets/images/cta-bg.png);
+        }
+
+        #cta .contain h4 {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 7px;
+        }
+        #cta .contain p {
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 17px;
+        }
+        #cta .contain .link-button{
+            background: linear-gradient(91.48deg, #13B3E6 -43.54%, #0B4FFF 120.97%);
+            padding: 10px 29px  10px 26px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        #cta .contain .link-button svg {
+            vertical-align: middle;
+            height: 12px;
+            width: 12px;
+        }
+
+        #cta .contain .link-button span {
+            margin-right: 7px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        #cta .contain .link-button span img{
+            filter: invert(0);
+        }
+        #banner-carousel .carousel-item .carousel-info .container h5{
+            margin-bottom: 21px;
+            padding-right: 0px;
+            font-size: 24px;
+            line-height: 30px;
+            color: #000;
+
+        }
+
+        #footer {
+            padding: 0px;
+            margin-bottom: 0px;
+        }
+
+        #footer .contain{
+            border-radius: 0px;
+        }
+        #footer .copy-right{
+            border-radius: 0px;
+        }
+    }
+
+
+
+
+
+
+    @media only screen and  (max-width:575px){
+    #deliver-end-to-end .contain p {
+        font-weight: 500;
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    #global-transformation .slick-active {
+
+        max-width: 50%;
+    }
+    
+    #brands .card > .card-content {
+        padding: 3px;
+    }
+    #brands.px-28 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #brands .slick-slide img {
+        max-width: 130px;
+    }
+}

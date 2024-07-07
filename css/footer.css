@@ -1,0 +1,110 @@
+#footer-new {
+  background: #fff;
+}
+#footer-new .footer-top {
+  border-bottom: 1px solid #D9DEE7;
+  padding-top: 85px;
+  padding-bottom: 53px;
+}
+#footer-new .footer-top .wrap {
+  max-width: 1230px;
+  display: flex;
+}
+#footer-new .footer-top .wrap .heading {
+  color: #B9B9B9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 13px;
+}
+#footer-new .footer-top .wrap .footer-menu {
+  max-width: 80%;
+  width: 100%;
+  display: flex;
+}
+#footer-new .footer-top .wrap .footer-menu ul {
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 2px;
+  color: #1E1E1E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#footer-new .footer-top .wrap .footer-menu ul a:hover {
+  text-decoration: underline;
+}
+#footer-new .footer-top .wrap .footer-menu .menu {
+  width: 25%;
+  margin: 0;
+}
+#footer-new .footer-top .wrap .footer-icon {
+  width: 20%;
+}
+#footer-new .footer-top .wrap .footer-icon .icons img {
+  width: 32px;
+  height: 32px;
+}
+#footer-new .footer-bottom .wrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1230px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+  padding: 15px 0px;
+}
+#footer-new .footer-bottom .wrap .copy {
+  margin: 0;
+  color: #4A4A4A;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  #footer-new .footer-top .wrap {
+    flex-direction: column;
+  }
+  #footer-new .footer-top .wrap .footer-menu {
+    max-width: 100%;
+  }
+  #footer-new .footer-top .wrap .footer-icon {
+    width: 100%;
+  }
+  #footer-new .footer-top .wrap .footer-menu .menu {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #footer-new .footer-top .wrap .footer-menu .menu {
+    width: 50%;
+  }
+  #footer-new .footer-top .wrap .footer-menu {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  #footer-new .footer-top .wrap .heading {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4D4D4D;
+    opacity: 1;
+  }
+  #footer-new .footer-top .wrap .footer-menu ul {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  #footer-new .footer-top .wrap .footer-icon .icons img {
+    width: 26px;
+    height: 26px;
+  }
+  #footer-new .footer-bottom .wrap .copy {
+    padding: 21px 20px 6px 38px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=footer-new.css.map */

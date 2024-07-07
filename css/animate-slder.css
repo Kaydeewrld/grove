@@ -1,0 +1,433 @@
+.slideshow {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.slideshow * {
+  outline: none;
+}
+.slideshow .slider {
+  box-shadow: 0 20px 50px -25px black;
+}
+.slideshow .slider-track {
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.slideshow .item {
+  height: 100%;
+  position: relative;
+  height: 780px;
+  z-index: 1;
+  max-height: calc(100vh - 98px);
+}
+
+#banner-carousel.islamic-landing.image-carousel .carousel-info p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+.slideshow .item video {
+  width: 100%;
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+
+  transform: scale(1.2);
+  height: 798px;
+  object-fit: cover;
+  object-position: center;
+}
+.slideshow .item.slick-active video {
+  transform: scale(1);
+}
+
+
+
+ul.slick-dots{
+    position: absolute;
+    min-height: 30px;
+    right: 0;
+    bottom: 0;
+    left: 27.5px;
+    z-index: 2;
+    display: flex;
+    padding: 0;
+    max-width: 1270px;
+    margin: auto;
+    margin-bottom: 99px;
+    justify-content: left;
+    border-radius: 20px;
+    list-style: none;
+}
+
+ul.slick-dots li {
+    margin: 0px;
+    width: 63px;
+    margin-right: 28px;
+    margin-left: 0px;
+    border: 0;
+    text-align: center;
+    position: relative;
+}
+
+ul.slick-dots li button{
+    margin: auto;
+    background-color: transparent !important;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 0;
+    width: 63px;
+    margin-right: 28px;
+    margin-top: 5px;
+    margin-left: 0px;
+    border: 0;
+    position: relative;
+}
+ul.slick-dots li button:after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+    display: block;
+    top: 7px;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+ul.slick-dots li.slick-active button:before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #1569E7;
+    position: relative;
+    z-index: 50 !important;
+    top: 30px;
+    display: block;
+    animation: lineAnim 50s linear;
+    border-radius: 10px;
+}
+ul.slick-dots li.slick-active button:after{
+    opacity: 1;
+}
+
+
+.carousel-info {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 1.25rem 27.5px;
+    color: #fff;
+}
+
+.carousel-info .container {
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel-info .container h5 {
+    font-weight:  400;
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 30px;
+}
+
+
+.carousel-info .container .banner-link-btton {
+    /* background: linear-gradient(90deg, #2B1FB6 -13.32%, #0085FF 120.64%); */
+    border-radius: 10px;
+    padding: 17px 26px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    margin-left: 30px;
+    background-image: linear-gradient(45deg,#6055E0
+    ,#6055E0
+    ,#2B1FB6 95.64%);
+    background-size: 300% 400%;
+    transition: 0.6s all;
+
+}
+.carousel-info .container .banner-link-btton:hover{
+        background-image: linear-gradient(45deg,#6055E0
+        ,#6055E0
+        ,#2B1FB6);
+        background-position: 75% 10%;
+        /* transform: perspective(100px) */
+     
+}
+/* .image-carousel{
+    padding: 0px 17px;
+} */
+
+.image-carousel .carousel-info .container h5 {
+    margin-bottom: 33px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.image-carousel ul.slick-dots{
+    margin-bottom: 75px;
+}
+
+.image-carousel .slick-slider{
+    max-width: 1385px;
+}
+
+.image-carousel.slideshow .item{
+    height: 606px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.image-carousel.slideshow.tech{
+    background-color: #040C1D;
+}
+.image-carousel.slideshow.tech .item{
+    height: 600px;
+}
+
+.image-carousel .slick-slide .slider-banner-image{
+    display: block;
+    min-height: 606px;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+
+.retail .carousel-info .container h5{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.white-link-btton{
+    background: #6055E0;
+    border-radius: 50px;
+    color: #000;
+    padding: 16.2px 26px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.white-link-btton span svg{
+    margin-left: 4px;
+}
+
+.white-link-btton:hover{
+    background-color: #a9d4ff;
+    transition-duration: .4s;
+}
+
+
+.global-transaction .slick-slide img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.global-transaction.slideshow .item {
+    height: 816px;
+}
+.global-transaction .carousel-info .container h5 {
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.global-transaction .carousel-info .container .banner-link-btton{
+    font-weight: 400;
+}
+
+@keyframes lineAnim {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 00%;
+        width: 99%;
+    }
+    100% {
+        left: 00%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1380px){
+ul.slick-dots {
+            margin-bottom: 50px;
+    }
+}   
+
+@media only screen and (max-width: 991px){
+    #banner-carousel ul.slick-dots {
+        left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .slideshow .item,.slideshow .item video {
+        height: 500px;
+        border-radius: 18px;
+        overflow: hidden;
+
+      }
+    .carousel-info .container h5 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 43px;
+        padding-right: 100px;
+    }
+    .carousel-info .container .banner-link-btton {
+        font-size: 14px;
+        padding: 16px 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .slideshow .item,.slideshow .item video {
+        position: relative;
+        max-height: 201px;
+        border-radius: 18px;
+        object-fit: cover;
+        max-width: 100%;
+    }
+    #banner-carousel  .carousel-info {
+        position: relative;
+        color: #6055E0;
+        padding-bottom: 121px;
+        padding: 20px 0px 125px 0px;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+    }
+    .carousel-info .container {
+        align-items: unset;
+        height: auto;
+    }
+
+    .carousel-info .container h5 {
+        margin-bottom: 21px;
+        padding-right: 0px;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+    }
+    #banner-carousel {
+        padding: 0px 16px;
+        min-height: 485px;
+    }
+    .slideshow .item, .slideshow .item  {
+        position: relative;
+        max-height: 485px;
+    }
+    ul.slick-dots li button{
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 500;
+    }
+    #banner-carousel ul.slick-dots {
+        left: 0px;
+        margin-bottom: 50px;
+    }
+    ul.slick-dots li button:after{
+        background-color: #eaeaea;
+    }
+
+    #banner-carousel .carousel-info {
+        position: relative;
+        color: #6055E0;
+        padding-bottom: 121px;
+        padding: 20px 0px 125px 0px;
+        border: 0px;
+        height: auto;
+    }
+
+    .white-link-btton{
+        padding: 10px 27px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .image-carousel .carousel-info {
+        padding: 0px;
+        padding-top: 33px;
+    }
+    
+    
+    .image-carousel.slideshow .item{
+        padding: 14px 19px 0px 19px;
+        border-radius:0px;
+    }
+    .image-carousel .slick-slide .slider-banner-image{
+        object-fit: contain;
+        object-position: top;
+        min-height: auto;
+    }
+    .image-carousel .carousel-info .container h5 {
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .image-carousel.slideshow .item, .slideshow .item {
+        max-height: unset;
+        height: fit-content;
+    }
+    #banner-carousel.image-carousel .carousel-info {
+        padding: 33px 0px 110px 0px;
+    }
+    .image-carousel .carousel-info .container h5{
+        max-width: 334px;
+        margin-left: 0px;
+    }
+    
+    
+    .image-carousel.retail  .slick-slider{
+    background-image: url("../images/retail-slider-bg-mobile.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    }
+    .slideshow.retail .item, .slideshow .item video {
+        background-color:#6055E0 !important;
+    }
+    #banner-carousel.retail {
+        padding: 0px 13px 0px 13px;
+    }
+        
+    .image-carousel.retail .carousel-info .container h5{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #banner-carousel.image-carousel.retail .carousel-info {
+        padding: 13px 0px 87px 0px;
+    }
+    
+
+    #banner-carousel.image-carousel.retail ul.slick-dots {
+        left: 28px;
+        justify-content: left;
+        margin-left: 0px;
+    }
+}
