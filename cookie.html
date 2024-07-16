@@ -517,7 +517,7 @@
       style="display: none"
     ></p>
     <header class="header-global position-relative" id="header">
-      <nav class="navbar navbar-expand-lg p-0 dark">
+      <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
         <div class="container p-0">
           <a class="navbar-brand ms-0 p-0" href="index.html">
             <img
@@ -563,63 +563,49 @@
               ></path>
             </svg>
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item product-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                    onmouseenter="megaMenu('');"
-                    onmouseout="megaMenu('');"
-                  >
-                    Products
-                  </div>
+              <li class="nav-item ">
+                <a class="nav-link      "           >
+                   <div> Product</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="virtual.html">Virtual Account</a> </li>
+                    <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                    <li><a href="API.html">API</a> </li>
+                    <li><a href="pos.html">POS Terminal</a> </li>
+                    <li> <a href="multi-currency.html">Multicurrency</a></li>
+                    <li> <a href="utility.html">Utility</a></li>
+                    <li> <a href="loan.html">Loan</a></li>
+                  </ul>
               </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
+              
 
               <li class="nav-item company-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                    onmouseenter="megaMenu('');"
-                  >
-                    Company
-                  </div>
+                <a class="nav-link"                  >
+                  <div> Company</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="partners.html">Our Partners</a> </li>
+                   
+                  </ul>
               </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
+             
+             
               <li class="nav-item careers-hover">
-                <a href="API.html" class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                    onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  >
-                    Developer
-                  </div></a
-                >
+                <a href="API.html" class="nav-link"                  >
+                    <div>Developer</div>
+                 </a                >
               </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li
-                class="nav-item"
-                onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-              >
-                <a class="nav-link" href="support.html"><div>Support</div></a>
+             
+             
+              <li                 >
+                <a class="nav-link" href="support.html"> <div>Support</div></a>
               </li>
             </ul>
             <div
@@ -628,7 +614,7 @@
             >
               <a
                 href="https://app.grovepay.co.uk/login"
-                class="border-link-btn1"
+                class="border-link-btn1" style="color: black;"
                 >Login</a
               >
               <a
@@ -647,437 +633,438 @@
         </div>
       </nav>
     </header>
-  <div id="megamenu-product" class="megamenu-product product-hover1">
-    <div class="line"></div>
-    <div class="left-bg-color">
-      <div class="contain-box" id="left-bg-color">
-        <div class="left-block">
-          <div
-            class="nav flex-column nav-pills ms-0"
-            id="v-pills-tab"
-            role="tablist"
-            aria-orientation="vertical"
-          >
-            <h5 class="tabs-title d-none">Products</h5>
-            <a
-              href="virtual.html"
-              class="nav-link active lending"
-              id="v-pills-1-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-1"
-              type="button"
-              role="tab"
-              aria-controls="v-pills-1"
-              aria-selected="true"
+    <div id="megamenu-product" class="megamenu-product product-hover1">
+      <div class="line"></div>
+      <div class="left-bg-color">
+        <div class="contain-box" id="left-bg-color">
+          <div class="left-block">
+            <div
+              class="nav flex-column nav-pills ms-0"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
             >
-              <div class="ms-0">
-                <img
-                  src="images/borrow-money.svg"
-                  alt=""
-                  class="d_active link-img"
-                />Virtual Account
-              </div>
-              <img src="images/Arrow%203.svg" alt="" class="opacity-0 zero" />
-            </a>
-            <a
-              href="multi-currency.html"
-              class="nav-link trans"
-              id="v-pills-2-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-2"
-              type="button"
-              role="tab"
-              aria-controls="v-pills-2"
-              aria-selected="false"
-            >
-              <div class="ms-0">
-                <img
-                  src="images/banking.svg"
-                  alt=""
-                  class="link-img"
-                />Multi-currency wallet
-              </div>
-              <img src="images/Arrow%203.svg" alt="" class="opacity-0" />
-            </a>
-            <a
-              href="collection-payout.html"
-              class="nav-link fn"
-              id="v-pills-3-tab"
-              data-bs-toggle="pill"
-              data-bs-target="#v-pills-3"
-              type="button"
-              role="tab"
-              aria-controls="v-pills-3"
-              aria-selected="false"
-            >
-              <div class="ms-0">
-                <img
-                  src="images/financial-inclusion.svg"
-                  alt=""
-                  class="link-img"
-                />
-                Collection & Payout
-              </div>
-              <img src="images/Arrow%203.svg" alt="" class="opacity-0" />
-            </a>
+              <h5 class="tabs-title d-none">Products</h5>
+              <a
+                href="virtual.html"
+                class="nav-link active lending"
+                id="v-pills-1-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-1"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-1"
+                aria-selected="true"
+              >
+                <div class="ms-0">
+                  <img
+                    src="images/borrow-money.svg"
+                    alt=""
+                    class="d_active link-img"
+                  />Virtual Account
+                </div>
+                <img src="images/Arrow%203.svg" alt="" class="opacity-0 zero" />
+              </a>
+              <a
+                href="multi-currency.html"
+                class="nav-link trans"
+                id="v-pills-2-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-2"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-2"
+                aria-selected="false"
+              >
+                <div class="ms-0">
+                  <img
+                    src="images/banking.svg"
+                    alt=""
+                    class="link-img"
+                  />Multi-currency wallet
+                </div>
+                <img src="images/Arrow%203.svg" alt="" class="opacity-0" />
+              </a>
+              <a
+                href="collection-payout.html"
+                class="nav-link fn"
+                id="v-pills-3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-3"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-3"
+                aria-selected="false"
+              >
+                <div class="ms-0">
+                  <img
+                    src="images/financial-inclusion.svg"
+                    alt=""
+                    class="link-img"
+                  />
+                  Collection & Payout
+                </div>
+                <img src="images/Arrow%203.svg" alt="" class="opacity-0" />
+              </a>
+            </div>
           </div>
-        </div>
-        <!-- right -->
-        <div class="right-block">
-          <div class="tab-content m-0" id="v-pills-tabContent">
-            <!-- tab-1 -->
-            <div
-              class="tab-pane fade show active"
-              id="v-pills-1"
-              role="tabpanel"
-              aria-labelledby="v-pills-1-tab"
-            >
-              <div class="container">
-                <div class="row g-14">
-                  <div class="m-heading">
-                    <div class="m-title">
-                      <a href="https://www.grovepay.co.uk/virtualaccount"
-                        ><span style="text-decoration: none" class="onhover"
-                          >Virtual Account</span
-                        >
-                        <img src="images/arrow-right-megamenu.svg" alt=""
-                      /></a>
-                    </div>
-                    <p>
-                      Grovepay's advanced technology platform, designed to
-                      deliver agile and efficient solutions while drastically
-                      reducing the cost of operations
-                    </p>
-                  </div>
-                  <div class="col-3">
-                    <div class="block-card">
-                      <a href="https://www.grovepay.co.uk/virtualaccount">
-                        <img
-                          src="c6vsHvyXSCIRLrKuOakBSeiltjY.avif"
-                          alt=""
-                          class="img-fluid w-100"
-                          style="width: 1024px; height: 110px"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Real-time account creation</h5>
-                        <p>
-                          Instantly create your virtual account with
-                          Grovepay’s real-time account setup, providing
-                          seamless and immediate access.
-                        </p>
-                        <a
-                          href="virtual.html"
-                          class="d-none link-btn d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
+          <!-- right -->
+          <div class="right-block">
+            <div class="tab-content m-0" id="v-pills-tabContent">
+              <!-- tab-1 -->
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-1"
+                role="tabpanel"
+                aria-labelledby="v-pills-1-tab"
+              >
+                <div class="container">
+                  <div class="row g-14">
+                    <div class="m-heading">
+                      <div class="m-title">
+                        <a href="https://www.grovepay.co.uk/virtualaccount"
+                          ><span style="text-decoration: none" class="onhover"
+                            >Virtual Account</span
                           >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                          <img src="images/arrow-right-megamenu.svg" alt=""
+                        /></a>
+                      </div>
+                      <p>
+                        Grovepay's advanced technology platform, designed to
+                        deliver agile and efficient solutions while drastically
+                        reducing the cost of operations
+                      </p>
+                    </div>
+                    <div class="col-3">
+                      <div class="block-card">
+                        <a href="https://www.grovepay.co.uk/virtualaccount">
+                          <img
+                            src="c6vsHvyXSCIRLrKuOakBSeiltjY.avif"
+                            alt=""
+                            class="img-fluid w-100"
+                            style="width: 1024px; height: 110px"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Real-time account creation</h5>
+                          <p>
+                            Instantly create your virtual account with
+                            Grovepay’s real-time account setup, providing
+                            seamless and immediate access.
+                          </p>
+                          <a
+                            href="virtual.html"
+                            class="d-none link-btn d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="block-card">
-                      <a href="virtual.html">
-                        <img
-                          src="reports_vs_dashboard.png"
-                          alt=""
-                          class="img-fluid w-100"
-                          style="width: 1024px; height: 110px"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Advanced reporting</h5>
-                        <p>
-                          Grovepay's virtual account feature offers advanced
-                          reporting, providing comprehensive insights for
-                          informed financial management.
-                        </p>
-                        <a
-                          href="virtual.html"
-                          class="d-none link-btn d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                    <div class="col-3">
+                      <div class="block-card">
+                        <a href="virtual.html">
+                          <img
+                            src="reports_vs_dashboard.png"
+                            alt=""
+                            class="img-fluid w-100"
+                            style="width: 1024px; height: 110px"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Advanced reporting</h5>
+                          <p>
+                            Grovepay's virtual account feature offers advanced
+                            reporting, providing comprehensive insights for
+                            informed financial management.
+                          </p>
+                          <a
+                            href="virtual.html"
+                            class="d-none link-btn d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="block-card">
-                      <a href="virtual.html">
-                        <img
-                          src="Illustration-of-two-smartphones-with-dollar-signs-showing-money-transfer-concept-iStock-1158440846-Edit-1024x576.jpeg"
-                          alt=""
-                          class="img-fluid w-100"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Fund Transfer</h5>
-                        <p>
-                          Grovepay's virtual account empowers seamless fund
-                          transfers, ensuring swift and secure transactions at
-                          your fingertips.
-                        </p>
-                        <a
-                          href="virtual.html"
-                          class="link-btn d-none d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                    <div class="col-3">
+                      <div class="block-card">
+                        <a href="virtual.html">
+                          <img
+                            src="Illustration-of-two-smartphones-with-dollar-signs-showing-money-transfer-concept-iStock-1158440846-Edit-1024x576.jpeg"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Fund Transfer</h5>
+                          <p>
+                            Grovepay's virtual account empowers seamless fund
+                            transfers, ensuring swift and secure transactions at
+                            your fingertips.
+                          </p>
+                          <a
+                            href="virtual.html"
+                            class="link-btn d-none d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="block-card">
-                      <a href="virtual.html">
-                        <img
-                          src="istockphoto-1432239664-612x612.jpg"
-                          alt=""
-                          class="img-fluid w-100"
-                          style="width: 1024px; height: 110px"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Balance monitoring</h5>
-                        <p>
-                          Empower your financial control with Grovepay's
-                          robust balance monitoring for your virtual account,
-                          ensuring real-time visibility and management.
-                        </p>
-                        <a
-                          href="virtual.html"
-                          class="link-btn d-none d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                    <div class="col-3">
+                      <div class="block-card">
+                        <a href="virtual.html">
+                          <img
+                            src="istockphoto-1432239664-612x612.jpg"
+                            alt=""
+                            class="img-fluid w-100"
+                            style="width: 1024px; height: 110px"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Balance monitoring</h5>
+                          <p>
+                            Empower your financial control with Grovepay's
+                            robust balance monitoring for your virtual account,
+                            ensuring real-time visibility and management.
+                          </p>
+                          <a
+                            href="virtual.html"
+                            class="link-btn d-none d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- tab 2 -->
-            <div
-              class="tab-pane fade"
-              id="v-pills-2"
-              role="tabpanel"
-              aria-labelledby="v-pills-2-tab"
-            >
-              <div class="tab-2-content">
-                <div class="m-heading">
-                  <div class="m-title">
-                    <a href="multi-currency.html"
-                      ><span style="text-decoration: none" class="onhover"
-                        >Multicurrency feature</span
-                      >
-                      <img src="images/arrow-right-megamenu.svg" alt=""
-                    /></a>
-                  </div>
-                  <p>
-                    Our Multicurrency feature enhances international
-                    transactions, enabling you effortlessly manage and
-                    exchange multiple currencies.
-                  </p>
-                </div>
-                <div class="d-flex">
-                  <a href="multi-currency.html">
-                    <img src="image.webp" alt="" />
-                  </a>
-                  <div class="info">
-                    <h5>
-                      Our product has automatic currency detection,
-                      simplifying transactions across global markets.
-                    </h5>
+              <!-- tab 2 -->
+              <div
+                class="tab-pane fade"
+                id="v-pills-2"
+                role="tabpanel"
+                aria-labelledby="v-pills-2-tab"
+              >
+                <div class="tab-2-content">
+                  <div class="m-heading">
+                    <div class="m-title">
+                      <a href="multi-currency.html"
+                        ><span style="text-decoration: none" class="onhover"
+                          >Multicurrency feature</span
+                        >
+                        <img src="images/arrow-right-megamenu.svg" alt=""
+                      /></a>
+                    </div>
                     <p>
-                      Our Multicurrency feature provides real-time exchange
-                      rate information, ensuring transparent and accurate
-                      currency conversions for seamless transactions.
+                      Our Multicurrency feature enhances international
+                      transactions, enabling you effortlessly manage and
+                      exchange multiple currencies.
                     </p>
-                    <a
-                      href="multi-currency.html"
-                      class="link-btn d-flex align-items-center"
-                    >
-                      <span class="me-2 ms-0"> Learn more</span>
-                      <svg
-                        width="16"
-                        class="m-0"
-                        height="17"
-                        viewBox="0 0 16 17"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                          stroke="#161616"
-                          stroke-width="1.1"
-                          stroke-linecap="round"
-                        ></path>
-                      </svg>
+                  </div>
+                  <div class="d-flex">
+                    <a href="multi-currency.html">
+                      <img src="image.webp" alt="" />
                     </a>
+                    <div class="info">
+                      <h5>
+                        Our product has automatic currency detection,
+                        simplifying transactions across global markets.
+                      </h5>
+                      <p>
+                        Our Multicurrency feature provides real-time exchange
+                        rate information, ensuring transparent and accurate
+                        currency conversions for seamless transactions.
+                      </p>
+                      <a
+                        href="multi-currency.html"
+                        class="link-btn d-flex align-items-center"
+                      >
+                        <span class="me-2 ms-0"> Learn more</span>
+                        <svg
+                          width="16"
+                          class="m-0"
+                          height="17"
+                          viewBox="0 0 16 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                            stroke="#161616"
+                            stroke-width="1.1"
+                            stroke-linecap="round"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- tab 3 -->
-            <div
-              class="tab-pane fade"
-              id="v-pills-3"
-              role="tabpanel"
-              aria-labelledby="v-pills-3-tab"
-            >
-              <div class="container">
-                <div class="row g-14">
-                  <div class="m-heading">
-                    <div class="m-title">
-                      <a href="collection-payout.html"
-                        ><span style="text-decoration: none" class="onhover"
-                          >Collection & Payout</span
-                        >
-                        <img src="images/arrow-right-megamenu.svg" alt=""
-                      /></a>
-                    </div>
-                    <p>
-                      GrovePay offers real-time tracking for seamless
-                      collection and payout operations, ensuring transparency
-                      and efficiency in financial transactions.
-                    </p>
-                  </div>
-                  <div class="col-4 m-0">
-                    <div class="block-card">
-                      <a href="collection-payout.html">
-                        <img
-                          src="svgviewer-output (50).svg"
-                          alt=""
-                          class="img-fluid w-100"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Collection</h5>
-                        <p>
-                          Our advanced platform is designed to streamline the
-                          collection process, ensuring that your business can
-                          handle transactions.
-                        </p>
-                        <a
-                          href="collection-payout.html"
-                          class="link-btn d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
+              <!-- tab 3 -->
+              <div
+                class="tab-pane fade"
+                id="v-pills-3"
+                role="tabpanel"
+                aria-labelledby="v-pills-3-tab"
+              >
+                <div class="container">
+                  <div class="row g-14">
+                    <div class="m-heading">
+                      <div class="m-title">
+                        <a href="collection-payout.html"
+                          ><span style="text-decoration: none" class="onhover"
+                            >Collection & Payout</span
                           >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                          <img src="images/arrow-right-megamenu.svg" alt=""
+                        /></a>
+                      </div>
+                      <p>
+                        GrovePay offers real-time tracking for seamless
+                        collection and payout operations, ensuring transparency
+                        and efficiency in financial transactions.
+                      </p>
+                    </div>
+                    <div class="col-4 m-0">
+                      <div class="block-card">
+                        <a href="collection-payout.html">
+                          <img
+                            src="svgviewer-output (50).svg"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Collection</h5>
+                          <p>
+                            Our advanced platform is designed to streamline the
+                            collection process, ensuring that your business can
+                            handle transactions.
+                          </p>
+                          <a
+                            href="collection-payout.html"
+                            class="link-btn d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-4 m-0">
-                    <div class="block-card">
-                      <a href="collection-payout.html">
-                        <img
-                          src="svgviewer-output (51).svg"
-                          alt=""
-                          class="img-fluid w-100"
-                        />
-                      </a>
-                      <div class="info-box">
-                        <h5>Payout</h5>
-                        <p>
-                          Our Payment Payout solutions are designed to provide
-                          you with the flexibility and reliability you need to
-                          manage your funds effortlessly.
-                        </p>
-                        <a
-                          href="collection-payout.html"
-                          class="link-btn d-flex align-items-center"
-                        >
-                          <span class="me-2 ms-0"> Learn more</span>
-                          <svg
-                            width="16"
-                            class="m-0"
-                            height="17"
-                            viewBox="0 0 16 17"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
-                              stroke="#161616"
-                              stroke-width="1.1"
-                              stroke-linecap="round"
-                            ></path>
-                          </svg>
+                    <div class="col-4 m-0">
+                      <div class="block-card">
+                        <a href="collection-payout.html">
+                          <img
+                            src="svgviewer-output (51).svg"
+                            alt=""
+                            class="img-fluid w-100"
+                          />
                         </a>
+                        <div class="info-box">
+                          <h5>Payout</h5>
+                          <p>
+                            Our Payment Payout solutions are designed to provide
+                            you with the flexibility and reliability you need to
+                            manage your funds effortlessly.
+                          </p>
+                          <a
+                            href="collection-payout.html"
+                            class="link-btn d-flex align-items-center"
+                          >
+                            <span class="me-2 ms-0"> Learn more</span>
+                            <svg
+                              width="16"
+                              class="m-0"
+                              height="17"
+                              viewBox="0 0 16 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M11.2502 11.5L13.7199 9.03026C14.0129 8.73736 14.0129 8.26248 13.7199 7.96958L11.2502 5.49984M13.5003 8.49992L2.5 8.49992"
+                                stroke="#161616"
+                                stroke-width="1.1"
+                                stroke-linecap="round"
+                              ></path>
+                            </svg>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1088,343 +1075,342 @@
         </div>
       </div>
     </div>
-  </div>
-  <div id="megamenu-company" class="megamenu-company company-hover1">
-    <div class="line"></div>
-    <div class="contain-box" id="left-bg-color">
-      <div class="container">
-        <div class="left">
-          <div class="row g-14">
-            <div class="col m-0">
-              <a href="about.html">
-                <img src="svgviewer-output.svg" alt="" class="w-100" />
-              </a>
-              <a href="about.html">About Us</a>
-            </div>
-            
-            <div class="col m-0">
-              <a href="about.html">
-                <img src="svgviewer-output (2).svg" alt="" class="w-100" />
-              </a>
-              <a href="partners.html">Grovepay Partners</a>
+    <div id="megamenu-company" class="megamenu-company company-hover1">
+      <div class="line"></div>
+      <div class="contain-box" id="left-bg-color">
+        <div class="container">
+          <div class="left">
+            <div class="row g-14">
+              <div class="col m-0">
+                <a href="about.html">
+                  <img src="svgviewer-output.svg" alt="" class="w-100" />
+                </a>
+                <a href="about.html">About Us</a>
+              </div>
+              
+              <div class="col m-0">
+                <a href="about.html">
+                  <img src="svgviewer-output (2).svg" alt="" class="w-100" />
+                </a>
+                <a href="partners.html">Grovepay Partners</a>
+              </div>
             </div>
           </div>
+          
         </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu">
+      <div class="m-0">
+        <div class="d-flex justify-content-between align-items-center header">
+          <img src="svgviewer-output (41) (1).svg" alt="" class="m-0" />
+
+          <a href="index.html" class="m-0 mobile-expand-btn">
+            <img src="Close.svg" alt="" />
+          </a>
+        </div>
+
+        <ul class="menu-links mobile-main-menu">
+          <li class="menu-item">
+            <a href="index.html">Home</a>
+          </li>
+
+          <li class="menu-item">
+            <a class="productlink"
+              >Products
+
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="companylink"
+               href="about.html">Company
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="API.html" class="careerslink"
+              >Developer
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="support.html">Support</a>
+          </li>
+        </ul>
+
+        <ul class="menu-links product-submenu">
+          <li class="menu-item active-link back">
+            <a>
+              <span class="m-0 d-flex align-items-center">
+                <svg
+                  width="10"
+                  height="18"
+                  viewBox="0 0 10 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.9341 17L1 9L8.9341 1"
+                    stroke="#0D65FA"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                Back
+              </span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="active">
+              <span class="m-0 d-flex align-items-center lendinglink">
+                Products
+              </span>
+              <!--               <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.810699 12.9247H26.4588M26.4588 12.9247L18.1609 4.62673M26.4588 12.9247L18.1609 21.2226" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg> -->
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="virtual.html">
+              <span class="m-0 d-flex align-items-center lendinglink">
+                Virtual Account
+              </span>
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="collection-payout.html">
+              <span class="m-0 d-flex align-items-center transactionlink">
+                Collection & Payout
+              </span>
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="multi-currency.html">
+              <span class="m-0 d-flex align-items-center financiallink">
+                Multicurrency Wallet
+              </span>
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <!-- new added insights-submenu -->
+        <ul class="menu-links insights-submenu">
+          <li class="menu-item active-link back-insights">
+            <a>
+              <span class="m-0 d-flex align-items-center">
+                <svg
+                  width="10"
+                  height="18"
+                  viewBox="0 0 10 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.9341 17L1 9L8.9341 1"
+                    stroke="#0D65FA"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                Back
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu-links company-submenu">
+          <li class="menu-item active-link back-company">
+            <a>
+              <span class="m-0 d-flex align-items-center">
+                <svg
+                  width="10"
+                  height="18"
+                  viewBox="0 0 10 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.9341 17L1 9L8.9341 1"
+                    stroke="#0D65FA"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                Back
+              </span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a class="active" href="about.html">
+              <span class="m-0 d-flex align-items-center"> Company </span>
+              <svg
+                class="d-none"
+                width="28"
+                height="26"
+                viewBox="0 0 28 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.810699 12.9247H26.4588M26.4588 12.9247L18.1609 4.62673M26.4588 12.9247L18.1609 21.2226"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="about.html">
+              <span class="m-0 d-flex align-items-center"> About Us </span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="about.html">
+              <span class="m-0 d-flex align-items-center"> Leadership </span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="partners.html">
+              <span class="m-0 d-flex align-items-center">
+                Grovepay's Partners
+              </span>
+            </a>
+          </li>
+         
+        </ul>
         
       </div>
-    </div>
-  </div>
 
-  <div id="mobile-menu">
-    <div class="m-0">
-      <div class="d-flex justify-content-between align-items-center header">
-        <img src="svgviewer-output (41) (1).svg" alt="" class="m-0" />
-
-        <a href="index.html" class="m-0 mobile-expand-btn">
-          <img src="Close.svg" alt="" />
-        </a>
-      </div>
-
-      <ul class="menu-links mobile-main-menu">
-        <li class="menu-item">
-          <a href="index.html">Home</a>
-        </li>
-
-        <li class="menu-item">
-          <a class="productlink"
-            >Products
-
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
+      <div class="mobile-footer m-0">
+        <div class="cta">
+          <a href="contact.html" class="border-link-btn d-none">Request demo</a>
+          <a href="contact.html" class="border-link-btn">Contact Us</a>
+        </div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/company/grovepay-digital-limited-grovepay/"
+            target="_blank"
+          >
+            <img src="images/Linkedin.svg" alt="" />
           </a>
-        </li>
-
-        <li class="menu-item">
-          <a class="companylink"
-            >Company
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
+          <a href="#" target="_blank">
+            <img src="images/facebook.svg" alt="" />
           </a>
-        </li>
-        <li class="menu-item">
-          <a href="API.html" class="careerslink"
-            >Developer
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
+          <a href="https://www.instagram.com/grovepay/" target="_blank">
+            <img src="images/Instagram.svg" alt="" />
           </a>
-        </li>
-
-        <li class="menu-item">
-          <a href="support.html">Support</a>
-        </li>
-      </ul>
-
-      <ul class="menu-links product-submenu">
-        <li class="menu-item active-link back">
-          <a>
-            <span class="m-0 d-flex align-items-center">
-              <svg
-                width="10"
-                height="18"
-                viewBox="0 0 10 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.9341 17L1 9L8.9341 1"
-                  stroke="#0D65FA"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-              Back
-            </span>
+          <a href="https://x.com/paywithgrovepay" target="_blank">
+            <img src="images/Twitter.svg" alt="" />
           </a>
-        </li>
-
-        <li class="menu-item">
-          <a class="active">
-            <span class="m-0 d-flex align-items-center lendinglink">
-              Products
-            </span>
-            <!--               <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0.810699 12.9247H26.4588M26.4588 12.9247L18.1609 4.62673M26.4588 12.9247L18.1609 21.2226" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg> -->
+          <a href="#" target="_blank">
+            <img src="images/youtube.svg" alt="" />
           </a>
-        </li>
-
-        <li class="menu-item">
-          <a>
-            <span class="m-0 d-flex align-items-center lendinglink">
-              Virtual Account
-            </span>
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </a>
-        </li>
-
-        <li class="menu-item">
-          <a>
-            <span class="m-0 d-flex align-items-center transactionlink">
-              Collection & Payout
-            </span>
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a>
-            <span class="m-0 d-flex align-items-center financiallink">
-              Multicurrency Wallet
-            </span>
-            <svg
-              width="10"
-              height="18"
-              viewBox="0 0 10 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.03269 0.966554L8.9668 8.96655L1.0327 16.9666"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <!-- new added insights-submenu -->
-      <ul class="menu-links insights-submenu">
-        <li class="menu-item active-link back-insights">
-          <a>
-            <span class="m-0 d-flex align-items-center">
-              <svg
-                width="10"
-                height="18"
-                viewBox="0 0 10 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.9341 17L1 9L8.9341 1"
-                  stroke="#0D65FA"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-              Back
-            </span>
-          </a>
-        </li>
-      </ul>
-      <ul class="menu-links company-submenu">
-        <li class="menu-item active-link back-company">
-          <a>
-            <span class="m-0 d-flex align-items-center">
-              <svg
-                width="10"
-                height="18"
-                viewBox="0 0 10 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8.9341 17L1 9L8.9341 1"
-                  stroke="#0D65FA"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-              Back
-            </span>
-          </a>
-        </li>
-
-        <li class="menu-item">
-          <a class="active">
-            <span class="m-0 d-flex align-items-center"> Company </span>
-            <svg
-              class="d-none"
-              width="28"
-              height="26"
-              viewBox="0 0 28 26"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.810699 12.9247H26.4588M26.4588 12.9247L18.1609 4.62673M26.4588 12.9247L18.1609 21.2226"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="about.html">
-            <span class="m-0 d-flex align-items-center"> About Us </span>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="about.html">
-            <span class="m-0 d-flex align-items-center"> Leadership </span>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="partners.html">
-            <span class="m-0 d-flex align-items-center">
-              Grovepay's Partners
-            </span>
-          </a>
-        </li>
-       
-      </ul>
-      
-    </div>
-
-    <div class="mobile-footer m-0">
-      <div class="cta">
-        <a href="contact.html" class="border-link-btn d-none">Request demo</a>
-        <a href="contact.html" class="border-link-btn">Contact Us</a>
-      </div>
-      <div class="social-links">
-        <a
-          href="https://www.linkedin.com/company/grovepay-digital-limited-grovepay/"
-          target="_blank"
-        >
-          <img src="images/Linkedin.svg" alt="" />
-        </a>
-        <a href="#" target="_blank">
-          <img src="images/facebook.svg" alt="" />
-        </a>
-        <a href="https://www.instagram.com/grovepay/" target="_blank">
-          <img src="images/Instagram.svg" alt="" />
-        </a>
-        <a href="https://x.com/paywithgrovepay" target="_blank">
-          <img src="images/Twitter.svg" alt="" />
-        </a>
-        <a href="#" target="_blank">
-          <img src="images/youtube.svg" alt="" />
-        </a>
-      </div>
-      <div class="mobile-copy">
-        <p href="https://www.grovepay.co.uk/">
-          Copyright © 2024 Grovepay Digital Ltd. All rights reserved.
-        </p>
+        </div>
+        <div class="mobile-copy">
+          <p href="https://www.grovepay.co.uk/">
+            Copyright © 2024 Grovepay Digital Ltd. All rights reserved.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
    
 

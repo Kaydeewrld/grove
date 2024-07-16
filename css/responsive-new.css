@@ -686,9 +686,11 @@
             font-size: 40px;
         }
         .slideshow .item, .slideshow .item video {
-            height: 500px;
+            height: 300px;
             border-radius: 0px;
             overflow: hidden;
+            background-color: white;
+            color: white;
         }
         #stories-tab .container .tab-content #v-pills-case-studies .case-studies .slide-arrow.next-arrow, #stories-tab .container .tab-content #v-pills-brochures .case-studies .slide-arrow.next-arrow, #stories-tab .container .tab-content #v-pills-whitepapers .case-studies .slide-arrow.next-arrow, #stories-tab .container .tab-content #v-pills-news .case-studies .slide-arrow.next-arrow {
 

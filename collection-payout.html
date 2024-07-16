@@ -768,8 +768,9 @@
       id="after_white"
       style="display: none"
     ></p>
+    ></p>
     <header class="header-global position-relative" id="header">
-      <nav class="navbar navbar-expand-lg p-0 dark">
+      <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
         <div class="container p-0">
           <a class="navbar-brand ms-0 p-0" href="index.html">
             <img
@@ -815,63 +816,49 @@
               ></path>
             </svg>
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item product-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                    onmouseenter="megaMenu('');"
-                    onmouseout="megaMenu('');"
-                  >
-                    Products
-                  </div>
+              <li class="nav-item ">
+                <a class="nav-link      "           >
+                   <div> Product</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="virtual.html">Virtual Account</a> </li>
+                    <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                    <li><a href="API.html">API</a> </li>
+                    <li><a href="pos.html">POS Terminal</a> </li>
+                    <li> <a href="multi-currency.html">Multicurrency</a></li>
+                    <li> <a href="utility.html">Utility</a></li>
+                    <li> <a href="loan.html">Loan</a></li>
+                  </ul>
               </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
+              
 
               <li class="nav-item company-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                    onmouseenter="megaMenu('');"
-                  >
-                    Company
-                  </div>
+                <a class="nav-link"                  >
+                  <div> Company</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="partners.html">Our Partners</a> </li>
+                   
+                  </ul>
               </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
+             
+             
               <li class="nav-item careers-hover">
-                <a href="API.html" class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                    onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  >
-                    Developer
-                  </div></a
-                >
+                <a href="API.html" class="nav-link"                  >
+                    <div>Developer</div>
+                 </a                >
               </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li
-                class="nav-item"
-                onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-              >
-                <a class="nav-link" href="support.html"><div>Support</div></a>
+             
+             
+              <li                 >
+                <a class="nav-link" href="support.html"> <div>Support</div></a>
               </li>
             </ul>
             <div
@@ -880,7 +867,7 @@
             >
               <a
                 href="https://app.grovepay.co.uk/login"
-                class="border-link-btn1"
+                class="border-link-btn1" style="color: black;"
                 >Login</a
               >
               <a
@@ -1353,7 +1340,7 @@
                 </a>
                 <a href="about.html">About Us</a>
               </div>
-
+              
               <div class="col m-0">
                 <a href="about.html">
                   <img src="svgviewer-output (2).svg" alt="" class="w-100" />
@@ -1362,6 +1349,7 @@
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -1405,7 +1393,7 @@
 
           <li class="menu-item">
             <a class="companylink"
-              >Company
+               href="about.html">Company
               <svg
                 width="10"
                 height="18"
@@ -1485,7 +1473,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="virtual.html">
               <span class="m-0 d-flex align-items-center lendinglink">
                 Virtual Account
               </span>
@@ -1508,7 +1496,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="collection-payout.html">
               <span class="m-0 d-flex align-items-center transactionlink">
                 Collection & Payout
               </span>
@@ -1530,7 +1518,7 @@
             </a>
           </li>
           <li class="menu-item">
-            <a>
+            <a href="multi-currency.html">
               <span class="m-0 d-flex align-items-center financiallink">
                 Multicurrency Wallet
               </span>
@@ -1602,7 +1590,7 @@
           </li>
 
           <li class="menu-item">
-            <a class="active">
+            <a class="active" href="about.html">
               <span class="m-0 d-flex align-items-center"> Company </span>
               <svg
                 class="d-none"
@@ -1639,7 +1627,9 @@
               </span>
             </a>
           </li>
+         
         </ul>
+        
       </div>
 
       <div class="mobile-footer m-0">
@@ -1711,7 +1701,7 @@
         padding: 13px 26px;
         color: #ffffff;
         transition-duration: 0.4s;
-        background: linear-gradient(90deg, #2b1fb6 -13.32%, #0085ff 120.64%);
+        background: linear-gradient(90deg, #6055e0 -13.32%, #6055e0 120.64%);
       }
       .link-button-lending img {
         padding-bottom: 0px !important;
@@ -1754,8 +1744,7 @@
           Built to shape the future of collection and payout
         </h2>
         <p class="sub-title slideanim">
-          An advanced technology platform, designed to deliver agile and
-          efficient solutions while drastically reducing the cost of operations
+          Our collection service streamlines digital fund collection and disbursement.
         </p>
         <div class="row g-43">
           <div class="col-md-4">
@@ -1771,9 +1760,7 @@
               />
               <div class="ms-0 slideanim">
                 <p>
-                  An end-to-end collection suite that transformed the business
-                  performance of over 200 financial institutions across 50
-                  countries
+                  Our wallet-to-wallet transfer feature enables individuals to transfer funds securely and instantly from one wallet to another. This feature is ideal for peer-to-peer payments, online shopping, and more.
                 </p>
               </div>
             </div>
@@ -1791,8 +1778,7 @@
               />
               <div class="ms-0 slideanim">
                 <p>
-                  Digitizes the complete payout lifecycle with smarter &amp;
-                  faster credit decisions
+                  Our Payout feature offers tailored payment solutions with customizable options for a personalized financial experience.
                 </p>
               </div>
             </div>
@@ -1810,8 +1796,7 @@
               />
               <div class="ms-0 slideanim">
                 <p>
-                  Accelerates go-to-market to enable you keep pace with rapidly
-                  changing market dynamics
+                  GrovePay offers real-time tracking for seamless collection and payout operations, ensuring transparency and efficiency in financial transactions.
                 </p>
               </div>
             </div>
@@ -1890,7 +1875,7 @@
       >
         <div class="container">
           <h2 class="slideanim">
-            Enhance customer reach and reduce TAT with digital channels
+            Improved cash flow management
           </h2>
           <div class="row">
             <div class="col-lg-5 order-1 order-lg-0 d-flex align-items-center">
@@ -1899,7 +1884,7 @@
                   <img data-lazyloaded="1" src="" data-src="check.svg" alt="" />
                   <p>
                     On-board customers faster, deliver better customer journeys
-                    and simplify collection processes for agents
+                    and simplify collection processes for users
                   </p>
                 </div>
                 <div class="lsit-item slideanim d-flex align-items-start">
@@ -1922,13 +1907,13 @@
                     alt=""
                   />
                   <p>
-                    Incorporate automated credit checks, bank statement analysis
+                    Incorporate automated user KYC, bank statement analysis
                     and customer identity verifications on the go
                   </p>
                 </div>
                 <a href="about.html" class="d-none"
                   >Learn more<span class="d-none d-md-block"
-                    >�&nbsp;about our lending solution</span
+                    >�&nbsp;about Grovepay</span
                   >
                   <img
                     data-lazyloaded="1"
@@ -1982,7 +1967,7 @@
             <div class="detail">
               <h3 class="slideanim">Growth</h3>
               <p class="slideanim">
-                Facilitate complex credit decisioning and streamline capturing
+                Facilitate complex Payout and Collection and streamline capturing
                 of data to drive growth through multiple lines of business
               </p>
               <div class="d-flex align-items-start slideanim">
@@ -2013,7 +1998,7 @@
                   <h6>Business diversification</h6>
                   <p>
                     Ease of creation of new products within the multiple lines
-                    of business for lending
+                    of business for payout and collection
                   </p>
                 </div>
               </div>
@@ -2028,7 +2013,7 @@
               <h3 class="slideanim">Reliability</h3>
               <p class="slideanim">
                 Rich domain expertise and highly robust technology to navigate
-                deeper due diligence required to manage payputs
+                deeper due diligence required to manage payouts
               </p>
               <div class="d-flex align-items-start slideanim">
                 <img
@@ -2041,8 +2026,7 @@
                 <div class="ms-0">
                   <h6>Robust technology</h6>
                   <p>
-                    Flexibility in designing customised modules to incorporate
-                    changes and growth of business
+                    GrovePay streamlines processes, reducing administrative efforts for efficient collection and payout operations.
                   </p>
                 </div>
               </div>
@@ -2058,7 +2042,7 @@
                   <h6>Easy configurability</h6>
                   <p>
                     Accommodate business uncertainties with easy configuration
-                    of services like faster payouts, disbursements, tenures and
+                    of services like faster payouts, disbursements, and
                     more
                   </p>
                 </div>
@@ -2097,8 +2081,7 @@
             <div class="detail">
               <h3 class="slideanim">Efficiency</h3>
               <p class="slideanim">
-                Sophisticated solution for digitisation and risk assessment thus
-                reducing service time through faster decision making
+                GrovePay provides enhanced financial control, empowering users with precise management capabilities over collections and payouts for heightened financial efficiency.
               </p>
               <div class="d-flex align-items-start slideanim">
                 <img
@@ -2111,7 +2094,7 @@
                 <div class="ms-0">
                   <h6>Faster compliance</h6>
                   <p>
-                    Seamless integration of nip for optimizing the transfer
+                    Seamless integration of NIPS for optimizing the transfer
                     appraisal process
                   </p>
                 </div>

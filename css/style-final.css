@@ -17,7 +17,7 @@
   font-weight: 600;
   line-height: 48px;
   opacity: 0.9;
-  background: var(--text-gradient, linear-gradient(133deg, #0075FF 0%, #0091FF 47.4%, #0025A7 100%));
+  background: var(--text-gradient, linear-gradient(133deg, #6055E0 0%, #6055E0 47.4%, #6055E0 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -150,7 +150,7 @@
   min-height: auto;
   background-image: none !important;
   border-radius: 12px;
-  background: linear-gradient(147deg, #00408B -21.27%, #0037C6 25.18%, #029CB1 96.91%) !important;
+  background: linear-gradient(147deg, #6055E0 -21.27%, #6055E0 25.18%, #6055E0 96.91%) !important;
 }
 #intelligent.islamic .slick-slide img {
   max-height: 131px;
@@ -240,7 +240,7 @@
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -315,7 +315,7 @@
 #technology-platform .container {
   max-width: 1385px;
   padding: 124px 75px 113px 80px;
-  background-color: #1A3C96;
+  background-color: #6055E0;
   border-radius: 18px;
   background-position: center;
   background-size: cover;
@@ -382,7 +382,7 @@
 }
 #technology-platform .container .link-btn:hover {
   background-color: #fff;
-  color: #0653C7;
+  color: #6055E0;
   transition-duration: 0.4s;
 }
 #technology-platform .container .link-btn:hover svg {
@@ -452,7 +452,7 @@
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-accordians .contian .accordion-item .accordion-body .success-stories .slider-content .auther-container .auther-info .occupation {
   font-weight: 600;
@@ -475,7 +475,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-accordians .contian .accordion-item .accordion-body .case-studies .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .brochures .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .whitepapers .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .events .download-link svg {
   max-width: 12px;
@@ -502,7 +502,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -594,7 +594,7 @@
 }
 #stories-tab .container .nav .nav-link.active {
   color: #fff;
-  background: #0653C7;
+  background: #6055E0;
 }
 #stories-tab .container .nav .nav-link.active:hover {
   color: #fff;
@@ -617,7 +617,7 @@
   }
 }
 #stories-tab .container .nav .nav-link:hover {
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-tab .container .tab-content {
   height: auto;
@@ -767,7 +767,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -777,7 +777,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #0091FF 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -952,7 +952,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-tab .container .tab-content #v-pills-events .events .slider-content .detail .time-stamp img {
   max-height: 14px;

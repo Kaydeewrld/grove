@@ -156,7 +156,7 @@ ul.slick-dots li.slick-active button:after{
     margin-left: 30px;
     background-image: linear-gradient(45deg,#6055E0
     ,#6055E0
-    ,#2B1FB6 95.64%);
+    ,#6055E0 95.64%);
     background-size: 300% 400%;
     transition: 0.6s all;
 
@@ -164,8 +164,9 @@ ul.slick-dots li.slick-active button:after{
 .carousel-info .container .banner-link-btton:hover{
         background-image: linear-gradient(45deg,#6055E0
         ,#6055E0
-        ,#2B1FB6);
+        ,#6055E0);
         background-position: 75% 10%;
+        color: #000;
         /* transform: perspective(100px) */
      
 }

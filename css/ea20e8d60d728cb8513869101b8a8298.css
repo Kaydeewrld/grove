@@ -66,7 +66,7 @@
 }
 
 #banner-carousel .carousel-item .carousel-info .container .banner-link-btton {
-  background: linear-gradient(90deg, #2b1fb6 -13.32%, #0085ff 120.64%);
+  background: linear-gradient(90deg, #6055e0 -13.32%, #6055e0 120.64%);
   border-radius: 50px;
   padding: 18px 47.5px;
   font-weight: 600;
@@ -365,7 +365,7 @@
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075ff -1.8%, #0091ff 46.49%, #0025a7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text
@@ -1172,7 +1172,7 @@
   background: #040c1d;
   color: #fff;
   transition-duration: .4s;
-  background: linear-gradient(90deg, #2b1fb6 -13.32%, #0085ff 120.64%)
+  background: linear-gradient(90deg, #6055e0 -13.32%, #6055e0 120.64%)
 }
 
 #cta .contain .link-button:hover svg {
@@ -2088,7 +2088,7 @@
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075ff -1.8%, #0091ff 46.49%, #0025a7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text
@@ -3218,7 +3218,7 @@
   background: #040c1d;
   color: #fff;
   transition-duration: .4s;
-  background: linear-gradient(90deg, #2b1fb6 -13.32%, #0085ff 120.64%)
+  background: linear-gradient(90deg, #6055e0 -13.32%, #6055e0 120.64%)
 }
 
 #cta .contain .link-button:hover svg {
@@ -3401,13 +3401,13 @@ ul.slick-dots li.slick-active button:after {
   width: fit-content;
   align-items: center;
   margin: 0;
-  background-image: linear-gradient(45deg, #2b1fb6, #0085ff, #2b1fb6 95.64%);
+  background-image: linear-gradient(45deg, #6055e0, #6055e0, #6055e0 95.64%);
   background-size: 300% 400%;
   transition: .6s all
 }
 
 .carousel-info .container .banner-link-btton:hover {
-  background-image: linear-gradient(45deg, #2b1fb6, #00aeff, #2b1fb6);
+  background-image: linear-gradient(45deg, #6055e0, #6055e0, #6055e0);
   background-position: 75% 10%
 }
 
@@ -3838,7 +3838,7 @@ ul.slick-dots li.slick-active button:after {
   padding: 16.42px 26px;
   color: #fff;
   border: 0;
-  background-image: linear-gradient(45deg, #2b1fb6, #0085ff, #2b1fb6 95.64%);
+  background-image: linear-gradient(45deg, #6055e0, #6055e0, #6055e0 95.64%);
   background-size: 300% 400%;
   transition: .6s all;
   display: block;
@@ -3847,7 +3847,7 @@ ul.slick-dots li.slick-active button:after {
 }
 
 #intelligent .flip-button:hover {
-  background-image: linear-gradient(45deg, #2b1fb6, #00aeff, #2b1fb6);
+  background-image: linear-gradient(45deg, #6055e0, #6055e0, #6055e0);
   background-position: 75% 10%;
   transform: perspective(100px);
   color: #fff
@@ -9329,7 +9329,7 @@ div.heateor_sss_sharing_container svg {
   width: fit-content;
   align-items: center;
   margin: 0;
-  background-image: linear-gradient(45deg, #2b1fb6, #0085ff, #2b1fb6 95.64%);
+  background-image: linear-gradient(45deg, #6055e0, #6055e0, #6055e0 95.64%);
   background-size: 300% 400%;
   transition: .6s all;
   color: #fff
@@ -19255,18 +19255,38 @@ a {
 
 .border-link-btn {
   padding: 10px 23px;
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  color: #f5f7fa;
-  border: 1px solid #f5f7fa
+  color: #F5F7FA;
+  border: 1px solid #F5F7FA;
+  background: linear-gradient(90deg, #6055E0
+  -13.32%, #6055e0 120.64%);
 }
-
+.border-link-btn1 {
+  padding: 10px 23px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  border: 1px solid #F5F7FA;
+  background: white
+  ;
+  border-color: #6055E0
+  ;
+}
 .border-link-btn:hover {
-  transition-duration: .4s;
-  border-color: #1569e7;
-  background-color: #1569e7
+  transition-duration: 0.4s;
+  border-color: #1569E7;
+  background-color: #1569E7;
+}
+.border-link-btn1:hover {
+  transition-duration: 0.4s;
+  border-color: #1569E7;
+  background-color: #6055E0
+  ;
 }
 
 .title {

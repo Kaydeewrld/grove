@@ -365,7 +365,7 @@
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075ff -1.8%, #0091ff 46.49%, #0025a7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text
@@ -2091,7 +2091,7 @@ body{
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075ff -1.8%, #0091ff 46.49%, #0025a7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text
@@ -9539,7 +9539,7 @@ div.heateor_sss_sharing_container svg {
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075ff -1.8%, #0091ff 46.49%, #0025a7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text
@@ -11112,18 +11112,38 @@ a {
 
 .border-link-btn {
   padding: 10px 23px;
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  color: #f5f7fa;
-  border: 1px solid #f5f7fa
+  color: #F5F7FA;
+  border: 1px solid #F5F7FA;
+  background: linear-gradient(90deg, #6055E0
+  -13.32%, #6055E0 120.64%);
 }
-
+.border-link-btn1 {
+  padding: 10px 23px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: black;
+  border: 1px solid #F5F7FA;
+  background: white
+  ;
+  border-color: #6055E0
+  ;
+}
 .border-link-btn:hover {
-  transition-duration: .4s;
-  border-color: #1569e7;
-  background-color: #1569e7
+  transition-duration: 0.4s;
+  border-color: #6055E0;
+  background-color: #6055E0;
+}
+.border-link-btn1:hover {
+  transition-duration: 0.4s;
+  border-color: #6055E0;
+  background-color: #6055E0
+  ;
 }
 
 .title {
@@ -11489,41 +11509,7 @@ header nav .dropdown .dropdown-menu {
   color: #4d4d4d;
   margin-bottom: 13px
 }
-.border-link-btn {
-  padding: 10px 23px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  color: #F5F7FA;
-  border: 1px solid #F5F7FA;
-  background: linear-gradient(90deg, #6055E0
-  -13.32%, #0085FF 120.64%);
-}
-.border-link-btn1 {
-  padding: 10px 23px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  color: black;
-  border: 1px solid #F5F7FA;
-  background: white
-  ;
-  border-color: #6055E0
-  ;
-}
-.border-link-btn:hover {
-  transition-duration: 0.4s;
-  border-color: #1569E7;
-  background-color: #1569E7;
-}
-.border-link-btn1:hover {
-  transition-duration: 0.4s;
-  border-color: #1569E7;
-  background-color: #6055E0
-  ;
-}
+
 
 #megamenu-product .contain-box .right-block .tab-content .container .block-card .info-box .link-btn {
   font-weight: 600;

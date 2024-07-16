@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css\87bc60d819416f96f814f7c386a90d01.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="apple-touch-icon-Cm3a_U9v.png" />
+    <!-- slider CSS library -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- custom links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css\0fe7e11077629e7cf54a579871cc35f7.css" />
+    <link rel="stylesheet" href="css\87bc60d819416f96f814f7c386a90d01.css" />
+    <link rel="stylesheet" href="css\b3522157d19ea0915ad8caba7374638f.css" />
+    <link rel="stylesheet" href="css/style-final.css" />
     <title>Grovepay -API</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css\87bc60d819416f96f814f7c386a90d01.css" rel="stylesheet" />
@@ -392,6 +403,35 @@
         font-size: 1.5em;
         line-height: 1.6;
       }
+      a.link-button-lending {
+        display: flex;
+        border-radius: 50px;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: 0px;
+        margin-top: 39px;
+        padding: 13px 26px;
+        color: #ffffff;
+        transition-duration: 0.4s;
+        background: linear-gradient(90deg, #6055e0 -13.32%, #6055e0 120.64%);
+      }
+      .link-button-lending img {
+        padding-bottom: 0px !important;
+      }
+      a.link-button-lending img {
+        filter: invert(1);
+        transition-duration: 0.4s;
+        margin-right: 0px;
+      }
+      .new__btn {
+        margin-top: 50px;
+      }
+      a.link-button-lending:hover {
+        background-image: linear-gradient(45deg, #2b1fb6, #00aeff, #2b1fb6);
+        background-position: 75% 10%;
+        transform: perspective(100px);
+        color: black;
+      }
     </style>
     <link
       rel="stylesheet"
@@ -767,7 +807,7 @@
       style="display: none"
     ></p>
     <header class="header-global position-relative" id="header">
-      <nav class="navbar navbar-expand-lg p-0 dark">
+      <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
         <div class="container p-0">
           <a class="navbar-brand ms-0 p-0" href="index.html">
             <img
@@ -813,63 +853,49 @@
               ></path>
             </svg>
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item product-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                    onmouseenter="megaMenu('');"
-                    onmouseout="megaMenu('');"
-                  >
-                    Products
-                  </div>
+              <li class="nav-item ">
+                <a class="nav-link      "           >
+                   <div> Product</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="virtual.html">Virtual Account</a> </li>
+                    <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                    <li><a href="API.html">API</a> </li>
+                    <li><a href="pos.html">POS Terminal</a> </li>
+                    <li> <a href="multi-currency.html">Multicurrency</a></li>
+                    <li> <a href="utility.html">Utility</a></li>
+                    <li> <a href="loan.html">Loan</a></li>
+                  </ul>
               </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
+              
 
               <li class="nav-item company-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                    onmouseenter="megaMenu('');"
-                  >
-                    Company
-                  </div>
+                <a class="nav-link"                  >
+                  <div> Company</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="partners.html">Our Partners</a> </li>
+                   
+                  </ul>
               </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
+             
+             
               <li class="nav-item careers-hover">
-                <a href="API.html" class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                    onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  >
-                    Developer
-                  </div></a
-                >
+                <a href="API.html" class="nav-link"                  >
+                    <div>Developer</div>
+                 </a                >
               </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li
-                class="nav-item"
-                onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-              >
-                <a class="nav-link" href="support.html"><div>Support</div></a>
+             
+             
+              <li                 >
+                <a class="nav-link" href="support.html"> <div>Support</div></a>
               </li>
             </ul>
             <div
@@ -878,7 +904,7 @@
             >
               <a
                 href="https://app.grovepay.co.uk/login"
-                class="border-link-btn1"
+                class="border-link-btn1" style="color: black;"
                 >Login</a
               >
               <a
@@ -1404,7 +1430,7 @@
 
           <li class="menu-item">
             <a class="companylink"
-              >Company
+               href="about.html">Company
               <svg
                 width="10"
                 height="18"
@@ -1484,7 +1510,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="virtual.html">
               <span class="m-0 d-flex align-items-center lendinglink">
                 Virtual Account
               </span>
@@ -1507,7 +1533,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="collection-payout.html">
               <span class="m-0 d-flex align-items-center transactionlink">
                 Collection & Payout
               </span>
@@ -1529,7 +1555,7 @@
             </a>
           </li>
           <li class="menu-item">
-            <a>
+            <a href="multi-currency.html">
               <span class="m-0 d-flex align-items-center financiallink">
                 Multicurrency Wallet
               </span>
@@ -1601,7 +1627,7 @@
           </li>
 
           <li class="menu-item">
-            <a class="active">
+            <a class="active" href="about.html">
               <span class="m-0 d-flex align-items-center"> Company </span>
               <svg
                 class="d-none"
@@ -1678,8 +1704,8 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     
-    <section id="engage" class="px-28" >
-      <h6 class="title" style="margin-top: -100px;">
+    <section id="engage" class="px-28" style="background-color: white;">
+      <h6 class="title" style="margin-top: -150px; color: #000;">
         Integrate our powerful APIs into your business’s system or application
       </h6>
       <div class="our-technology">
@@ -1894,9 +1920,21 @@
           </div>
         </div>
       </div>
+      
+              <div class="info-box d-flex flex-md-column align-items-md-start" style="margin-left: 35%;">
+                <a href="https://paywithgrove.readme.io/reference/getting-started-with-your-api" target="_blank" class="link-button-lending"
+                  >Know more about our API Integration<img
+                    data-lazyloaded="1"
+                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    data-src="Arrow-2-Left-Up.svg"
+                    alt=""
+                    class="ms-1"
+                /></a>
+              </div>
+            
     
-    </section>
-    <section id="best-in-class" class="px-28">
+    
+    <section id="best-in-class" class="px-28" style="margin-top: -150px;">
       <div class="wrap">
         <h5 class="title">Best-in-class strategic technology partnerships</h5>
         <div class="row gy-5">
@@ -1945,29 +1983,7 @@
         </div>
       </div>
     </section>
-    <section id="cta" class="home-final px-28">
-      <div class="contain" style="background-image: url(images/cta-bg.png)">
-        <div class="ms-0">
-          <h4 class="m-0">We’d love to hear from you!</h4>
-          <p>Contact us for your fintech requirements or any other queries</p>
-          <a href="contact.html" class="link-button">
-            <span>Talk to us</span>
-            <svg
-              width="20"
-              height="19"
-              viewBox="0 0 20 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M3.57178 16.2288L15.8006 4M15.8006 4L7.88784 4M15.8006 4V11.9128"
-                stroke="#161616"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path></svg></a>
-        </div>
-      </div>
-    </section>
+   
     <footer id="footer-new" >
       <div class="footer-top px-28">
         <div class="wrap">

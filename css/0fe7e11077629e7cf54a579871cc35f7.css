@@ -9649,7 +9649,7 @@ header nav .dropdown .dropdown-menu {
 }
 
 #megamenu-product .left-bg-color {
-  background: linear-gradient(to right, #f5f7fa 50%, #fff 20px)
+  background: linear-gradient(to right, #6055E0 50%, #fff 20px)
 }
 
 #megamenu-product .contain-box {
@@ -10789,7 +10789,7 @@ a{
 }
 
 #about-banner .row h5 span {
-  background: var(--text-gradient, linear-gradient(114deg, #0075ff 0%, #0091ff 99.4%, #0025a7 100%));
+  background: var(--text-gradient, linear-gradient(114deg, #6055E0 0%, #6055E0 99.4%, #0025a7 100%));
   background-clip: text;
   -webkit-background-clip: text;
   font-family: "Space Grotesk";
@@ -10806,7 +10806,7 @@ a{
     width: -moz-fit-content;
     width: fit-content;
     align-items: center;
-    margin-left: 30px;
+    
     background-image: linear-gradient(45deg,#6055E0
     ,#6055E0
     ,#2B1FB6 95.64%);
@@ -10978,7 +10978,7 @@ a{
 #translating .wrap .flip-button {
   padding: 13px 26px;
   border-radius: 50px;
-  background-image: linear-gradient(45deg, #2b1fb6, #00aeff, #2b1fb6);
+  background-image: linear-gradient(45deg, #6055E0, #6055E0, #6055E0);
   background-size: 300% 400%;
   transition: .6s all;
   margin: 0;

@@ -766,7 +766,7 @@
       style="display: none"
     ></p>
     <header class="header-global position-relative" id="header">
-      <nav class="navbar navbar-expand-lg p-0 dark">
+      <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
         <div class="container p-0">
           <a class="navbar-brand ms-0 p-0" href="index.html">
             <img
@@ -812,63 +812,49 @@
               ></path>
             </svg>
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item product-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                    onmouseenter="megaMenu('');"
-                    onmouseout="megaMenu('');"
-                  >
-                    Products
-                  </div>
+              <li class="nav-item ">
+                <a class="nav-link      "           >
+                   <div> Product</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="virtual.html">Virtual Account</a> </li>
+                    <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                    <li><a href="API.html">API</a> </li>
+                    <li><a href="pos.html">POS Terminal</a> </li>
+                    <li> <a href="multi-currency.html">Multicurrency</a></li>
+                    <li> <a href="utility.html">Utility</a></li>
+                    <li> <a href="loan.html">Loan</a></li>
+                  </ul>
               </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
+              
 
               <li class="nav-item company-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                    onmouseenter="megaMenu('');"
-                  >
-                    Company
-                  </div>
+                <a class="nav-link"                  >
+                  <div> Company</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="partners.html">Our Partners</a> </li>
+                   
+                  </ul>
               </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
+             
+             
               <li class="nav-item careers-hover">
-                <a href="API.html" class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                    onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  >
-                    Developer
-                  </div></a
-                >
+                <a href="API.html" class="nav-link"                  >
+                    <div>Developer</div>
+                 </a                >
               </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li
-                class="nav-item"
-                onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-              >
-                <a class="nav-link" href="support.html"><div>Support</div></a>
+             
+             
+              <li                 >
+                <a class="nav-link" href="support.html"> <div>Support</div></a>
               </li>
             </ul>
             <div
@@ -877,7 +863,7 @@
             >
               <a
                 href="https://app.grovepay.co.uk/login"
-                class="border-link-btn1"
+                class="border-link-btn1" style="color: black;"
                 >Login</a
               >
               <a
@@ -1403,7 +1389,7 @@
 
           <li class="menu-item">
             <a class="companylink"
-              >Company
+               href="about.html">Company
               <svg
                 width="10"
                 height="18"
@@ -1483,7 +1469,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="virtual.html">
               <span class="m-0 d-flex align-items-center lendinglink">
                 Virtual Account
               </span>
@@ -1506,7 +1492,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="collection-payout.html">
               <span class="m-0 d-flex align-items-center transactionlink">
                 Collection & Payout
               </span>
@@ -1528,7 +1514,7 @@
             </a>
           </li>
           <li class="menu-item">
-            <a>
+            <a href="multi-currency.html">
               <span class="m-0 d-flex align-items-center financiallink">
                 Multicurrency Wallet
               </span>
@@ -1600,7 +1586,7 @@
           </li>
 
           <li class="menu-item">
-            <a class="active">
+            <a class="active" href="about.html">
               <span class="m-0 d-flex align-items-center"> Company </span>
               <svg
                 class="d-none"
@@ -1676,47 +1662,7 @@
     </div>
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <section id="about-banner" class="px-28">
-      <div class="row mx-auto">
-        <div class="col-md-5 p-0 ps-md-0">
-          <div class="info">
-            <h5>
-              <span
-                >We focus on product innovation with a relentless
-                commitment</span
-              >
-              to ensure your finances are precise down to the last penny,
-              delivering leading edge future-proofed fintech solutions.
-            </h5>
-            <a
-              href="index.html"
-              class="cta-btn gradient-effect"
-              target="_blank"
-              >Explore our solutions
-              <img
-                data-lazyloaded="1"
-                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
-                data-src="Arrow-2-Left-Up.svg"
-                class="ms-1"
-            /></a>
-          </div>
-        </div>
-        <div class="col-md-7 px-0">
-          <div class="img">
-            <img
-              data-lazyloaded="1"
-              src="home_hero.png"
-              width="717"
-              height="421"
-              data-src="home_hero.png"
-              class="img-fluid mw-100"
-            />
-              
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     <div id="video-popup-overlay"></div>
     <div id="video-popup-container">
       <div id="video-popup-close" class="fade">✖</div>
@@ -1730,7 +1676,7 @@
         ></iframe>
       </div>
     </div>
-    <section id="our-values" class="px-28" style="margin-top: -250px;">
+    <section id="our-values" class="px-28" >
       <div class="wrap">
         <div class="row">
           <div class="col-md-6 col-xl-5 pe-0">
@@ -2256,30 +2202,7 @@
     
     
   
-    <section id="cta" class="px-28 mt-0">
-      <div class="contain" style="background-image: url(images/cta-bg.png)">
-        <div class="ms-0">
-          <h4 class="m-0">We’d love to hear from you!</h4>
-          <p>Contact us for your fintech requirements or any other queries</p>
-          <a href="contact.html" class="link-button">
-            <span>Talk to us</span>
-            <svg
-              width="20"
-              height="19"
-              viewBox="0 0 20 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.57178 16.2288L15.8006 4M15.8006 4L7.88784 4M15.8006 4V11.9128"
-                stroke="#161616"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path></svg          ></a>
-        </div>
-      </div>
-    </section>
+  
     <footer id="footer-new" >
       <div class="footer-top px-28">
         <div class="wrap">

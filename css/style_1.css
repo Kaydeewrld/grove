@@ -57,7 +57,7 @@
   }
 }
 #banner-carousel .carousel-item .carousel-info .container .banner-link-btton {
-  background: linear-gradient(90deg, #2B1FB6 -13.32%, #0085FF 120.64%);
+  background: linear-gradient(90deg, #6055E0 -13.32%, #0085FF 120.64%);
   border-radius: 50px;
   padding: 18px 47.5px;
   font-weight: 600;
@@ -129,7 +129,7 @@
   content: "";
   height: 2px;
   width: 0px;
-  background-color: #1569E7;
+  background-color: #6055E0;
   border-radius: 20px;
   position: relative;
   z-index: 2;
@@ -164,7 +164,7 @@
   font-size: 54px;
   line-height: 62px;
   text-align: center;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -245,7 +245,7 @@
   line-height: 16px;
   border-radius: 50px;
   padding: 10px 25px;
-  background: #1569E7;
+  background: #6055E0;
   color: #fff;
   display: flex;
   width: -moz-fit-content;
@@ -321,7 +321,7 @@
   font-size: 80px;
   line-height: 76px;
   text-align: center;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -426,7 +426,7 @@
 }
 #stories-tab .container .nav .nav-link.active {
   color: #fff;
-  background: #0653C7;
+  background: #6055E0;
 }
 #stories-tab .container .nav .nav-link.active:hover {
   color: #fff;
@@ -449,7 +449,7 @@
   }
 }
 #stories-tab .container .nav .nav-link:hover {
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-tab .container .tab-content {
   height: auto;
@@ -599,7 +599,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -609,7 +609,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+  background: linear-gradient(109deg, #6055E0 -1.8%, #6055E0 46.49%, #6055E0 100.09%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -784,7 +784,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-tab .container .tab-content #v-pills-events .events .slider-content .detail .time-stamp img {
   max-height: 14px;
@@ -1116,7 +1116,7 @@
 #technology-platform .container {
   max-width: 1385px;
   padding: 124px 75px 113px 80px;
-  background-color: #1A3C96;
+  background-color: #6055E0;
   border-radius: 18px;
   background-position: center;
   background-size: cover;
@@ -1183,7 +1183,7 @@
 }
 #technology-platform .container .link-btn:hover {
   background-color: #fff;
-  color: #0653C7;
+  color: #6055E0;
   transition-duration: 0.4s;
 }
 #technology-platform .container .link-btn:hover svg {
@@ -1253,7 +1253,7 @@
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-accordians .contian .accordion-item .accordion-body .success-stories .slider-content .auther-container .auther-info .occupation {
   font-weight: 600;
@@ -1276,7 +1276,7 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: #1569E7;
+  color: #6055E0;
 }
 #stories-accordians .contian .accordion-item .accordion-body .case-studies .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .brochures .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .whitepapers .download-link svg, #stories-accordians .contian .accordion-item .accordion-body .events .download-link svg {
   max-width: 12px;
@@ -1486,7 +1486,7 @@
 }
 
 #translating .wrap .flip-box-front {
-  background: linear-gradient(154deg, #002CC9 0%, #00B6DE 100%);
+  background: linear-gradient(154deg, #6055E0 0%, #00B6DE 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

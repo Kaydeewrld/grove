@@ -146,7 +146,7 @@
     padding: 16.42px 26px;
     color: #fff;
     border: 0px;
-    background-image: linear-gradient(45deg,#2B1FB6,#0085FF,#2B1FB6 95.64%);
+    background-image: linear-gradient(45deg,#6055E0,#6055E0,#6355e0 95.64%);
     background-size: 300% 400%;
     transition: 0.6s all;
     display: block;
@@ -156,7 +156,7 @@
 
 
   #intelligent .flip-button:hover{
-    background-image: linear-gradient(45deg,#2B1FB6,#00aeff,#2B1FB6);
+    background-image: linear-gradient(45deg, #2b1fb6, #00aeff, #2b1fb6);
     background-position: 75% 10%;
     transform: perspective(100px);
     color: #fff;
@@ -216,7 +216,7 @@
 
 #transaction-flip-box .flip-box .flip-box-back .inner {
   border-radius: 12px;
-  background: linear-gradient(147deg, #00408B -21.27%, #0037C6 25.18%, #029CB1 96.91%);
+  background: linear-gradient(147deg, #6055E0 -21.27%, #6055E0 25.18%, #6055E0 96.91%);
   padding: 55px 38px 40px;
   display: block !important;
   height: fit-content;

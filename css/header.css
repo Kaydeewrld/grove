@@ -130,7 +130,7 @@ a {
   color: #F5F7FA;
   border: 1px solid #F5F7FA;
   background: linear-gradient(90deg, #6055E0
-  -13.32%, #0085FF 120.64%);
+  -13.32%, #6055E0 120.64%);
 }
 .border-link-btn1 {
   padding: 10px 23px;
@@ -147,12 +147,12 @@ a {
 }
 .border-link-btn:hover {
   transition-duration: 0.4s;
-  border-color: #1569E7;
-  background-color: #1569E7;
+  border-color: #6055E0;
+  background-color: #6055E0;
 }
 .border-link-btn1:hover {
   transition-duration: 0.4s;
-  border-color: #1569E7;
+  border-color: #6055E0;
   background-color: #6055E0
   ;
 }
@@ -268,7 +268,7 @@ header nav .nav-link:hover span:after {
   width: 100%;
   content: "";
   display: block;
-  background-color: #1569E7;
+  background-color: #6055E0;
   position: absolute;
   bottom: -2;
 }
@@ -286,7 +286,7 @@ header nav .nav-link.active span {
   bottom: -2;
 }*/
 header nav .navbar-nav .nav-link.active, header nav .navbar-nav .nav-link.show {
-  color: rgba(255, 255, 255, 0.9);
+  color: #6055E0;
 }
 header nav .search-icon {
   margin-right: 18px;
@@ -366,7 +366,7 @@ header nav .dropdown .dropdown-menu {
   border-bottom: 0px;
 }
 #megamenu-product .contain-box .left-block .nav .nav-link:hover {
-  color: #1569E7;
+  color: #6055E0;
   transition-duration: 0.4s;
 }
 #megamenu-product .contain-box .left-block .nav .nav-link:hover .link-img {
@@ -376,7 +376,7 @@ header nav .dropdown .dropdown-menu {
   margin-right: 12px;
 }
 #megamenu-product .contain-box .left-block .active {
-  color: #1569E7 !important;
+  color: #6055E0 !important;
   transition-duration: 0.4s;
 }
 #megamenu-product .contain-box .left-block .active .link-img {
@@ -461,9 +461,9 @@ header nav .dropdown .dropdown-menu {
   margin: 0;
 }
 #megamenu-product .contain-box .right-block .tab-content .container .block-card .info-box .link-btn:hover {
-  background-color: #1569E7;
+  background-color: #6055E0;
   color: #fff;
-  border-color: #1569E7;
+  border-color: #6055E0;
   transition-duration: 0.4s;
 }
 #megamenu-product .contain-box .right-block .tab-content .container .block-card .info-box .link-btn:hover svg {
@@ -506,9 +506,9 @@ header nav .dropdown .dropdown-menu {
   margin: 0;
 }
 #megamenu-product .contain-box .right-block .tab-content .tab-2-content .info .link-btn:hover {
-  background-color: #1569E7;
+  background-color: #6055E0;
   color: #fff;
-  border-color: #1569E7;
+  border-color: #6055E0;
   transition-duration: 0.4s;
 }
 #megamenu-product .contain-box .right-block .tab-content .tab-2-content .info .link-btn:hover svg {
@@ -557,7 +557,7 @@ header nav .dropdown .dropdown-menu {
   z-index: 100;
 }
 #megamenu-company .contain-box .container .left a:hover {
-  color: #1569E7;
+  color: #6055E0;
 }
 #megamenu-company .contain-box .container .right {
   width: 250px;
@@ -585,7 +585,7 @@ header nav .dropdown .dropdown-menu {
   position: relative;
 }
 #megamenu-company .contain-box .container .right ul li a:hover {
-  color: #1569E7;
+  color: #6055E0;
 }
 
 #megamenu-company.megamenu-careers .contain-box .container .left, #megamenu-company.megamenu-insights .contain-box .container .left {
@@ -682,7 +682,7 @@ header nav .dropdown .dropdown-menu {
   padding: 10px 0px 7px;
 }
 #mobile-menu ul .active-link {
-  border-bottom: 4px solid #0D65FA !important;
+  border-bottom: 4px solid #6055E0 !important;
 }
 #mobile-menu ul .active-link span {
   font-weight: 600;
@@ -690,7 +690,7 @@ header nav .dropdown .dropdown-menu {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #0D65FA;
+  color: #6055E0;
 }
 #mobile-menu ul .active-link span svg {
   margin-right: 16px;
@@ -701,7 +701,7 @@ header nav .dropdown .dropdown-menu {
 }
 #mobile-menu .mobile-footer .cta .cta-link {
   min-height: 45px;
-  background-color: #0D65FA;
+  background-color: #6055E0;
   font-weight: 600;
   font-size: 18px;
   line-height: 16px;
@@ -763,8 +763,8 @@ header.header-global .border-link-btn {
 }
 header.header-global .border-link-btn:hover {
   color: #fff;
-  background-color: #1569E7;
-  border-color: #1569E7;
+  background-color: #6055E0;
+  border-color: #6055E0;
 }
 
 header .expand-search {
@@ -787,8 +787,8 @@ header.home.tech-header {
 }
 .header-global.esg .border-link-btn:hover {
   color: #fff;
-  background-color: #1569E7;
-  border-color: #1569E7;
+  background-color: #6055E0;
+  border-color: #6055E0;
 }
 
 .case-studies .all-resources-cta {
@@ -797,7 +797,7 @@ header.home.tech-header {
 
 .all-resources-cta {
   border-radius: 18px;
-  background: linear-gradient(154deg, #002CC9 0%, #00B6DE 100%);
+  background: linear-gradient(154deg, #6055E0 0%, #6055E0 100%);
   display: flex;
   width: 100%;
   height: 100%;
@@ -819,7 +819,7 @@ header.home.tech-header {
   display: flex;
   width: -moz-fit-content;
   width: fit-content;
-  background: linear-gradient(90deg, #FFF 0%, #8DC8FF 100%);
+  background: linear-gradient(90deg, #FFF 0%, #6055E0 100%);
   border-radius: 50px;
   font-size: 16px;
   font-style: normal;
@@ -863,7 +863,7 @@ header.home.tech-header.sticky-top .border-link-btn {
   border: 1px solid #000000;
 }
 header.home.tech-header.sticky-top .border-link-btn:hover {
-  border: 1px solid #1569E7;
+  border: 1px solid #6055E0;
   color: #fff;
 }
 header.home.tech-header.sticky-top .navbar-brand img {
@@ -878,7 +878,7 @@ header.home.tech-header.sticky-top .navbar-brand img {
     color: #000;
   }
   header.home.t-white.sticky-top .navbar-nav .nav-link:hover, header.home.t-white.sticky-top .navbar-nav:hover {
-    color: #0043CB;
+    color: #6055E0;
   }
   header.home.t-white.sticky-top .navbar-brand img {
     filter: unset;
@@ -889,7 +889,7 @@ header.home.tech-header.sticky-top .navbar-brand img {
   }
   header.home.t-white .border-link-btn:hover {
     color: #ffffff;
-    border: 1px solid #1569e7;
+    border: 1px solid #6055E0;
   }
   header.home.tech-header:not(.sticky-top) {
     background-color: #040C1D;
@@ -949,12 +949,12 @@ header.home.tech-header.sticky-top .navbar-brand img {
 }
 
 .gradient-effect {
-  background-image: linear-gradient(45deg, #2B1FB6, #0085FF, #2B1FB6 95.64%) !important;
+  background-image: linear-gradient(45deg, #6055E0, #6055E0, #6055E0 95.64%) !important;
   background-size: 300% 400% !important;
   transition: 0.6s all !important;
 }
 .gradient-effect:hover {
-  background-image: linear-gradient(45deg, #2B1FB6, #00aeff, #2B1FB6) !important;
+  background-image: linear-gradient(45deg, #6055E0, #6055E0, #6055E0) !important;
   background-position: 75% 10% !important;
 }
 
@@ -1154,7 +1154,7 @@ form .form-control::placeholder, form .form-control:focus::placeholder {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: blue;
+  background-color: #6055E0;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;

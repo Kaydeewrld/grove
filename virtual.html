@@ -388,7 +388,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
     <!-- header start -->
 	<p class="header-global position-relative " id="after_white" style="display:none;"></p>
   <header class="header-global position-relative" id="header">
-    <nav class="navbar navbar-expand-lg p-0 dark">
+    <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
       <div class="container p-0">
         <a class="navbar-brand ms-0 p-0" href="index.html">
           <img
@@ -434,63 +434,49 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
             ></path>
           </svg>
         </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item product-hover1">
-              <a class="nav-link"
-                ><div
-                  onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                  onmouseenter="megaMenu('');"
-                  onmouseout="megaMenu('');"
-                >
-                  Products
-                </div>
+            <li class="nav-item ">
+              <a class="nav-link      "           >
+                 <div> Product</div>
+                
+                
               </a>
+                <ul class="dropdown">
+                  <li><a href="virtual.html">Virtual Account</a> </li>
+                  <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                  <li><a href="API.html">API</a> </li>
+                  <li><a href="pos.html">POS Terminal</a> </li>
+                  <li> <a href="multi-currency.html">Multicurrency</a></li>
+                  <li> <a href="utility.html">Utility</a></li>
+                  <li> <a href="loan.html">Loan</a></li>
+                </ul>
             </li>
-            <li class="nav-item product-hover1">
-              <div></div>
-            </li>
-            <li class="nav-item product-hover1">
-              <div></div>
-            </li>
+            
 
             <li class="nav-item company-hover1">
-              <a class="nav-link"
-                ><div
-                  onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                  onmouseenter="megaMenu('');"
-                >
-                  Company
-                </div>
+              <a class="nav-link"                  >
+                <div> Company</div>
+                
+                
               </a>
+                <ul class="dropdown">
+                  <li><a href="about.html">About Us</a> </li>
+                  <li><a href="partners.html">Our Partners</a> </li>
+                 
+                </ul>
             </li>
-            <li class="nav-item company-hover1">
-              <div></div>
-            </li>
-            <li class="nav-item company-hover1">
-              <div></div>
-            </li>
+           
+           
             <li class="nav-item careers-hover">
-              <a href="API.html" class="nav-link"
-                ><div
-                  onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                >
-                  Developer
-                </div></a
-              >
+              <a href="API.html" class="nav-link"                  >
+                  <div>Developer</div>
+               </a                >
             </li>
-            <li class="nav-item careers-hover">
-              <div></div>
-            </li>
-            <li class="nav-item careers-hover">
-              <div></div>
-            </li>
-            <li
-              class="nav-item"
-              onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-            >
-              <a class="nav-link" href="support.html"><div>Support</div></a>
+           
+           
+            <li                 >
+              <a class="nav-link" href="support.html"> <div>Support</div></a>
             </li>
           </ul>
           <div
@@ -499,7 +485,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
           >
             <a
               href="https://app.grovepay.co.uk/login"
-              class="border-link-btn1"
+              class="border-link-btn1" style="color: black;"
               >Login</a
             >
             <a
@@ -985,9 +971,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
       </div>
     </div>
   </div>
-	
 
-	
   <div id="mobile-menu">
     <div class="m-0">
       <div class="d-flex justify-content-between align-items-center header">
@@ -1027,7 +1011,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
 
         <li class="menu-item">
           <a class="companylink"
-            >Company
+             href="about.html">Company
             <svg
               width="10"
               height="18"
@@ -1107,7 +1091,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
         </li>
 
         <li class="menu-item">
-          <a>
+          <a href="virtual.html">
             <span class="m-0 d-flex align-items-center lendinglink">
               Virtual Account
             </span>
@@ -1130,7 +1114,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
         </li>
 
         <li class="menu-item">
-          <a>
+          <a href="collection-payout.html">
             <span class="m-0 d-flex align-items-center transactionlink">
               Collection & Payout
             </span>
@@ -1152,7 +1136,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
           </a>
         </li>
         <li class="menu-item">
-          <a>
+          <a href="multi-currency.html">
             <span class="m-0 d-flex align-items-center financiallink">
               Multicurrency Wallet
             </span>
@@ -1224,7 +1208,7 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
         </li>
 
         <li class="menu-item">
-          <a class="active">
+          <a class="active" href="about.html">
             <span class="m-0 d-flex align-items-center"> Company </span>
             <svg
               class="d-none"
@@ -1308,7 +1292,13 @@ button#v-pills-events-tab, #stories-accordians .contian .accordion-item:last-chi
 </style>
 <!-- banner crowsel -->
 <section style="width: 100%; height: auto; margin: 0;">
-    <img src="svgviewer-output (27).svg" style="width: 90%; margin-left: 5%;" alt="">
+    <img src="svgviewer-output (43).svg" style="width: 90%; margin-left: 5%;" alt="">
+</section>
+<section style="width: 100%; height: auto; margin: 0;">
+    <img src="svgviewer-output (56).svg" style="width: 90%; margin-left: 5%;" alt="">
+</section>
+<section style="width: 100%; height: auto; margin: 0;">
+    <img src="svgviewer-output (59).svg" style="width: 90%; margin-left: 5%;" alt="">
 </section>
      
 <!-- Intelligent  Flip Box-->

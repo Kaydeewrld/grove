@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Grovepay -Homepage</title>
+    <link href="css\header.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="apple-touch-icon-Cm3a_U9v.png" />
     <!-- slider CSS library -->
@@ -765,7 +766,7 @@
       style="display: none"
     ></p>
     <header class="header-global position-relative" id="header">
-      <nav class="navbar navbar-expand-lg p-0 dark">
+      <nav class="navbar navbar-expand-lg p-0 dark primary-navigation" role="navigation">
         <div class="container p-0">
           <a class="navbar-brand ms-0 p-0" href="index.html">
             <img
@@ -811,63 +812,49 @@
               ></path>
             </svg>
           </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item product-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-product','megamenu-insights','megamenu-careers','megamenu-company');"
-                    onmouseenter="megaMenu('');"
-                    onmouseout="megaMenu('');"
-                  >
-                    Products
-                  </div>
+              <li class="nav-item ">
+                <a class="nav-link      "           >
+                   <div> Product</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="virtual.html">Virtual Account</a> </li>
+                    <li><a href="collection-payout.html">Collection/Payout</a> </li>
+                    <li><a href="API.html">API</a> </li>
+                    <li><a href="pos.html">POS Terminal</a> </li>
+                    <li> <a href="multi-currency.html">Multicurrency</a></li>
+                    <li> <a href="utility.html">Utility</a></li>
+                    <li> <a href="loan.html">Loan</a></li>
+                  </ul>
               </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item product-hover1">
-                <div></div>
-              </li>
+              
 
               <li class="nav-item company-hover1">
-                <a class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-company','megamenu-insights','megamenu-careers','megamenu-product');"
-                    onmouseenter="megaMenu('');"
-                  >
-                    Company
-                  </div>
+                <a class="nav-link"                  >
+                  <div> Company</div>
+                  
+                  
                 </a>
+                  <ul class="dropdown">
+                    <li><a href="about.html">About Us</a> </li>
+                    <li><a href="partners.html">Our Partners</a> </li>
+                   
+                  </ul>
               </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
-              <li class="nav-item company-hover1">
-                <div></div>
-              </li>
+             
+             
               <li class="nav-item careers-hover">
-                <a href="API.html" class="nav-link"
-                  ><div
-                    onclick="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                    onmouseenter="megaMenu('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-                  >
-                    Developer
-                  </div></a
-                >
+                <a href="API.html" class="nav-link"                  >
+                    <div>Developer</div>
+                 </a                >
               </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li class="nav-item careers-hover">
-                <div></div>
-              </li>
-              <li
-                class="nav-item"
-                onmouseenter="megaMenuHide('megamenu-careers','megamenu-product','megamenu-insights','megamenu-company');"
-              >
-                <a class="nav-link" href="support.html"><div>Support</div></a>
+             
+             
+              <li                 >
+                <a class="nav-link" href="support.html"> <div>Support</div></a>
               </li>
             </ul>
             <div
@@ -876,7 +863,7 @@
             >
               <a
                 href="https://app.grovepay.co.uk/login"
-                class="border-link-btn1"
+                class="border-link-btn1" style="color: black;"
                 >Login</a
               >
               <a
@@ -1402,7 +1389,7 @@
 
           <li class="menu-item">
             <a class="companylink"
-              >Company
+               href="about.html">Company
               <svg
                 width="10"
                 height="18"
@@ -1482,7 +1469,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="virtual.html">
               <span class="m-0 d-flex align-items-center lendinglink">
                 Virtual Account
               </span>
@@ -1505,7 +1492,7 @@
           </li>
 
           <li class="menu-item">
-            <a>
+            <a href="collection-payout.html">
               <span class="m-0 d-flex align-items-center transactionlink">
                 Collection & Payout
               </span>
@@ -1527,7 +1514,7 @@
             </a>
           </li>
           <li class="menu-item">
-            <a>
+            <a href="multi-currency.html">
               <span class="m-0 d-flex align-items-center financiallink">
                 Multicurrency Wallet
               </span>
@@ -1599,7 +1586,7 @@
           </li>
 
           <li class="menu-item">
-            <a class="active">
+            <a class="active" href="about.html">
               <span class="m-0 d-flex align-items-center"> Company </span>
               <svg
                 class="d-none"
@@ -1685,96 +1672,13 @@
     <!-- banner crowsel -->
     <section id="banner-carousel" class="slideshow px-0">
       <div class="animate-slider">
-        <div class="item">
-          <video autoplay="" muted="" loop="" class="slider-video">
-            <source src="Add a heading (16).mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="carousel-info">
+               <div class="item">
+          <img src="svgviewer-output (55).svg" alt="" style="width: 100%; height: fit-content;">
+          <div class="carousel-info" style="margin-top: 100px;">
             <div class="container p-0">
               <div class="col-12 col-md-9 col-lg-7 m-0 pe-md-4 slideanim">
-                <h5 style="color: transparent; margin-bottom: 150px">
-                  Effortless pay <span style="color: white"></span>
-                  <span>ment</span> <br />Money on the<span>ij</span>
-                  <span>move</span>
-                </h5>
-                <a
-                  href="/request-demo/"
-                  class="banner-link-btton m-0"
-                  style="margin-top: 20px"
-                >
-                  <span style="border-radius: 10px">Request demo</span>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    class="ms-2"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.6875 13.3106L12.3418 3.65625M12.3418 3.65625L6.09492 3.65625M12.3418 3.65625V9.90318"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <video autoplay="" muted="" loop="" class="slider-video">
-            <source src="Add a heading (16).mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="carousel-info">
-            <div class="container p-0">
-              <div class="col-12 col-md-9 col-lg-7 m-0 pe-md-4 slideanim">
-                <h5 style="color: transparent; margin-bottom: 150px">
-                  Effortless pay <span style="color: white"></span>
-                  <span>ment</span> <br />Money on the<span>ij</span>
-                  <span>move</span>
-                </h5>
-                <a href="/request-demo/" class="banner-link-btton m-0">
-                  <span style="border-radius: 10px">Ask our experts</span>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    class="ms-2"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.6875 13.3106L12.3418 3.65625M12.3418 3.65625L6.09492 3.65625M12.3418 3.65625V9.90318"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <video autoplay="" muted="" loop="" class="slider-video">
-            <source src="Add a heading (16).mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-          </video>
-          <div class="carousel-info">
-            <div class="container p-0">
-              <div class="col-12 col-md-9 col-lg-7 m-0 pe-md-4 slideanim">
-                <h5 style="color: transparent; margin-bottom: 150px">
-                  Effortless pay <span style="color: white"></span>
-                  <span>ment</span> <br />Money on the<span>ij</span>
-                  <span>move</span>
-                </h5>
-                <a href="/contact-us/" class="banner-link-btton m-0">
+               
+                <a href="contact.html" class="banner-link-btton m-0">
                   <span style="border-radius: 10px">Connect with us</span>
                   <svg
                     width="16"
@@ -2697,32 +2601,7 @@
     <!-- slicks-single-carousel End -->
 
     <!-- call to action -->
-    <section id="cta" class="home-final px-28">
-      <div class="contain" style="background-image: url(images/cta-bg.png)">
-        <div class="ms-0">
-          <h4 class="m-0">We’d love to hear from you!</h4>
-          <p>Contact us for any other queries</p>
-          <a href="contact.html" class="link-button">
-            <span>Talk to us</span>
-            <svg
-              width="20"
-              height="19"
-              viewBox="0 0 20 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.57178 16.2288L15.8006 4M15.8006 4L7.88784 4M15.8006 4V11.9128"
-                stroke="#161616"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </section>
+  
 
     <!-- footer -->
     <!-- footer -->
