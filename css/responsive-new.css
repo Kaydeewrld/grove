@@ -2259,7 +2259,8 @@
         #partners-baner .wrap{
             padding-left: 0;
             background-color: unset;
-            background-image: unset !important;
+            background-image:  url("../images/backl.svg");
+            height: 150px;
             min-height: unset;
         }
         #partners-baner .wrap .info h5 {
@@ -3457,7 +3458,7 @@
         #slicks-single-carousel .info a {
             padding: 10px 21px;
             font-size: 14px;
-            background: linear-gradient(117deg, #13B3E5 0%, #0B4FFF 100%);
+            background: linear-gradient(117deg, #6055e0 0%, #6055e0 100%);
             font-weight: 500;
             line-height: 16px;
             color:#fff;
