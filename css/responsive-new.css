@@ -5091,7 +5091,7 @@
             margin-bottom: 45px;
         }
         .slideshow .item, .slideshow .item video {
-            background-color: #000;
+            background-color: #FFF;
         }
         .slideshow.retail .item, .slideshow .item video {
             background-color: unset !important;
@@ -6999,7 +6999,7 @@
             align-items: baseline;
         }
         #deliver-end-to-end .title {
-            background: linear-gradient(109deg, #0075FF -1.8%, #0091FF 46.49%, #0025A7 100.09%);
+            background: linear-gradient(109deg, #6055e0  -1.8%, #6055e0  46.49%, #6055e0  100.09%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 600;

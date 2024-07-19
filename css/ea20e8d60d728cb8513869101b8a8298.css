@@ -3909,7 +3909,7 @@ ul.slick-dots li.slick-active button:after {
 
 #transaction-flip-box .flip-box .flip-box-back .inner {
   border-radius: 12px;
-  background: linear-gradient(147deg, #00408b -21.27%, #0037c6 25.18%, #029cb1 96.91%);
+  background: linear-gradient(147deg, #6055e0 -21.27%, #6055e0 25.18%, #6055e0 96.91%);
   padding: 55px 38px 40px;
   display: block !important;
   height: fit-content;
