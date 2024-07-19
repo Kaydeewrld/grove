@@ -333,11 +333,12 @@ ul.slick-dots {
     }
     #banner-carousel {
         padding: 0px 16px;
-        min-height: 485px;
+       
     }
     .slideshow .item, .slideshow .item  {
         position: relative;
         max-height: 485px;
+        
     }
     ul.slick-dots li button{
         color: rgba(0, 0, 0, 0.7);
